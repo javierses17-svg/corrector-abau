@@ -6,7 +6,7 @@ st.set_page_config(page_title="Corrector Matemáticas II", layout="centered")
 
 # Cargar datos
 def load_data():
-    with open('ejercicios.json', 'r', encoding='utf-8') as f:
+    with open('matematicas.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 data = load_data()
