@@ -1,152 +1,215 @@
 {
   "asignaturas": {
     "Matemáticas II": {
-      "Álgebra": [
-        {
-          "id": "MAT-ALG-01",
-          "titulo": "Discusión de Sistemas (Patrón Clásico)",
-          "enunciado": "Discuta, según los valores del parámetro $k$, el siguiente sistema de ecuaciones lineales:\n\n$$\\begin{cases} kx + y + z = 1 \\\\ x + ky + z = k \\\\ x + y + kz = k^2 \\end{cases}$$",
-          "rubrica": "Puntuación máxima 2.5 puntos. 1.0 punto por la determinación de los valores críticos de k (cálculo del determinante de la matriz de coeficientes). 1.0 punto por la discusión correcta de los tres casos posibles (SCD, SCI, SI) aplicando el Teorema de Rouché-Frobenius. 0.5 puntos por el rigor en la notación matemática y claridad.",
-          "tip": "Recuerda: si el determinante es distinto de cero, el sistema siempre es Compatible Determinado."
-        },
-        {
-          "id": "MAT-ALG-02",
-          "titulo": "Potencia de Matriz e Inversa",
-          "enunciado": "Dadas las matrices $A = \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix}$ y $B = \\begin{pmatrix} 2 & 1 \\\\ 0 & -1 \\end{pmatrix}$:\na) Calcula $A^{2026}$.\nb) Halla la matriz $X$ tal que $AX + B = 2X$.",
-          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.25 puntos): 0.5 por calcular A², A³ y detectar la ley de formación por inducción, 0.75 por dar la expresión general correcta de A^n. Apartado b (1.25 puntos): 0.5 por despejar correctamente la matriz X (X = (2I - A)⁻¹ * B o equivalente) y 0.75 por el cálculo correcto de la matriz inversa y el producto final.",
-          "tip": "No multipliques 2026 veces; busca el patrón en las primeras tres potencias."
-        },
-        {
-          "id": "MAT-ALG-03",
-          "titulo": "Problema de Planteamiento (Furgonetas)",
-          "enunciado": "Un transporte tiene 3 tipos de furgonetas (A, B y C). Se sabe que:\n- $2A + 3B + C = 50$ paquetes\n- $A + 2B + C = 35$ paquetes\n- $4A + 4B + 2C = 100$ paquetes\n¿Es posible determinar cuántos paquetes lleva cada furgoneta? Justifica la respuesta mediante el estudio del rango del sistema.",
-          "rubrica": "Puntuación máxima 2.5 puntos. 0.5 puntos por el planteamiento correcto del sistema de ecuaciones. 1.5 puntos por el estudio de los rangos (matriz de coeficientes y ampliada) usando el método de Gauss o determinantes. 0.5 puntos por la conclusión final razonada.",
-          "tip": "Si el rango de la matriz de coeficientes es igual al de la ampliada pero menor al número de incógnitas, el sistema es compatible indeterminado (infinitas soluciones)."
-        },
-        {
-          "id": "MAT-ALG-04",
-          "titulo": "Inversa de Matriz con Parámetro",
-          "enunciado": "Sea la matriz $M$ dependiente del parámetro $k$: $M = \\begin{pmatrix} 1 & 0 & k \\\\ 0 & k & 1 \\\\ 1 & 0 & 2 \\end{pmatrix}$.\na) ¿Para qué valores de $k$ la matriz $M$ no tiene inversa?\nb) Para $k = 1$, resuelve la ecuación matricial: $M \\cdot X = M^t$ (donde $M^t$ es la traspuesta de $M$).",
-          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.0 punto): Cálculo del determinante igualado a cero y obtención del valor k=2. Apartado b (1.5 puntos): 0.5 por el cálculo de la matriz traspuesta, 0.5 por la inversa de M y 0.5 por el producto final para hallar X.",
-          "tip": "Una matriz no tiene inversa si su determinante es cero. Revisa bien los signos al calcular los adjuntos."
-        },
-        {
-          "id": "MAT-ALG-05",
-          "titulo": "Propiedades de Matrices Invertibles",
-          "enunciado": "Dada la ecuación matricial $A^2 - A = I$ (donde $I$ es la matriz identidad):\na) Demuestra que $A$ es invertible y expresa su inversa en función de $A$ e $I$.\nb) Expresa la matriz $A^4$ como una combinación lineal de $A$ e $I$.",
-          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.0 punto): Justificación mediante la extracción de factor común A(A - I) = I y aplicación de la definición de inversa. Apartado b (1.5 puntos): Procedimiento de sustitución recurrente usando A² = A + I hasta llegar a la expresión final (3A + 2I).",
-          "tip": "No inventes números para A; usa solo las letras y propiedades de la matriz identidad."
-        }
-      ],
       "Sentido Estocástico (Estadística)": [
         {
           "id": "EST-01",
           "titulo": "Probabilidad Total y Bayes (Salud Pública)",
-          "enunciado": "Un estudio sobre una nueva variante de gripe indica que el 15% de la población está infectada ($I$). Una prueba diagnóstica da positivo ($+$) en el 96% de los infectados, pero también da un 2% de 'falsos positivos' en personas sanas.\na) Calcule la probabilidad de que una persona elegida al azar dé positivo.\nb) Si una persona da positivo, ¿cuál es la probabilidad de que realmente esté infectada? Interprete el resultado.",
-          "rubrica": "1 punto (Apartado a): 0.5 por el diagrama de árbol o tabla de contingencia correctamente planteada; 0.5 por la aplicación del Teorema de la Probabilidad Total. 1 punto (Apartado b): 0.75 por la aplicación correcta del Teorema de Bayes; 0.25 por la interpretación del resultado en el contexto dado. Penalización: -0.2 por no definir los sucesos (I,+,etc.).",
-          "tip": "Define claramente los sucesos antes de empezar. Un diagrama de árbol es tu mejor aliado aquí."
+          "enunciado": "Un test de antígenos tiene una sensibilidad del 95% y una especificidad del 98%. En una población con un 5% de infectados ($I$):\na) Calcule la probabilidad de que una persona elegida al azar dé positivo ($+$).\nb) Si una persona da positivo, ¿cuál es la probabilidad de que realmente esté infectada? Interprete el resultado.",
+          "rubrica": "1 pto por el diagrama de árbol y definición de sucesos. 1 pto por aplicar Bayes/Total. La falta de interpretación del resultado en el contexto resta 0.25 ptos.",
+          "tip": "Dibuja el árbol: Rama 1 (Infectado 0.05), Rama 2 (Sano 0.95). Define $P(+|I)$ y $P(+|S)$ antes de operar."
         },
         {
           "id": "EST-02",
-          "titulo": "Distribución Normal Inversa (Industria)",
-          "enunciado": "El peso de las cajas de cereales de una fábrica sigue una distribución normal de media $\\mu=500g$. Se sabe que el 5% de las cajas pesan más de 510g.\na) Calcule la desviación típica $\\sigma$ de la distribución.\nb) ¿Qué porcentaje de cajas pesan menos de 495g?\n(Datos: $P(Z<1.645)=0.95$; $P(Z<0.67)=0.75$)",
-          "rubrica": "1 punto (Apartado a): 0.5 por el planteamiento de la tipificación $P(Z>10/\\sigma)=0.05$; 0.5 por hallar $\\sigma \\approx 6.08$. 1 punto (Apartado b): 0.5 por tipificar correctamente; 0.5 por el cálculo final usando los valores del texto. Línea Roja 2026: Si el alumno no sabe identificar el valor 1.645 entre los datos, la puntuación es 0 en ese apartado.",
-          "tip": "Busca el valor 1.645 en los datos del enunciado; es la clave para resolver la tipificación sin tabla."
+          "titulo": "Distribución Normal (Uso de Apps)",
+          "enunciado": "El tiempo de uso de una App sigue una $N(\\mu, 15)$. El 20% de los usuarios la usan más de 60 min. Calcule $\\mu$.\n(Valor proporcionado: $P(Z < 0.84) = 0.80$)",
+          "rubrica": "1 pto por plantear la tipificación e identificar el valor Z=0.84 en el texto (no se permite tabla externa). 1 pto por el cálculo de $\\mu$.",
+          "tip": "En 2026 no hay tabla. El valor $Z=0.84$ está en el enunciado; úsalo para plantear $0.84 = (60-\\mu)/15$."
         },
         {
           "id": "EST-03",
-          "titulo": "Aproximación de Binomial a Normal",
-          "enunciado": "En una ciudad, el 10% de los ciudadanos son zurdos. Si se elige una muestra al azar de 400 ciudadanos:\na) Justifique por qué se puede aproximar la distribución por una normal.\nb) Calcule la probabilidad de que haya más de 45 zurdos.",
-          "rubrica": "0.75 puntos (Apartado a): Obligatorio comprobar las hipótesis $np>5$ y $nq>5$ ($40>5$ y $360>5$). 1.25 puntos (Apartado b): 0.5 por definir la normal aproximada $N(40,6)$; 0.5 por la corrección de continuidad (Yates) $P(X>45.5)$; 0.25 por el resultado final.",
-          "tip": "No olvides la corrección de continuidad (sumar o restar 0.5) al pasar de una variable discreta a una continua."
+          "titulo": "Aproximación Binomial a Normal",
+          "enunciado": "El 5% de la población tiene una mutación. En una muestra de 400 personas, calcule la probabilidad de que más de 25 la tengan.",
+          "rubrica": "0.5 ptos por la comprobación obligatoria de hipótesis ($np > 5, nq > 5$). Sin esto, el ejercicio es 0 ptos. 1.5 ptos por la normal aproximada con corrección de continuidad.",
+          "tip": "Sin escribir 'Como $np=20>5$ y $nq=380>5$', el corrector de la CiUG te pondrá un 0 directamente."
         },
         {
           "id": "EST-04",
-          "titulo": "Independencia y Sucesos (Conceptual)",
-          "enunciado": "Sean $A$ y $B$ dos sucesos tales que $P(A)=0.4$, $P(B)=0.5$ y $P(A \\cup B)=0.7$.\na) ¿Son $A$ y $B$ independientes? Justifique con cálculos.\nb) Calcule $P(\\bar{A} | B)$.",
-          "rubrica": "1 punto (Apartado a): 0.5 por hallar $P(A \\cap B)=0.2$; 0.5 por comprobar si $P(A) \\cdot P(B) = P(A \\cap B)$. 1 punto (Apartado b): 1 punto por el uso correcto de la probabilidad condicionada y el suceso contrario.",
-          "tip": "Dos sucesos son independientes si la probabilidad de su intersección es igual al producto de sus probabilidades individuales."
+          "titulo": "Sucesos e Independencia",
+          "enunciado": "Sean $A$ y $B$ con $P(A)=0.6$ y $P(A \\cup B)=0.9$. Calcule $P(B)$ si:\na) Son incompatibles.\nb) Son independientes.",
+          "rubrica": "1 pto por el caso incompatible ($P(A \\cap B)=0$). 1 pto por el caso independiente ($P(A \\cap B)=P(A) \\cdot P(B)$).",
+          "tip": "Incompatible significa que no pueden ocurrir a la vez. Independiente significa que uno no afecta la probabilidad del otro."
         },
         {
           "id": "EST-05",
-          "titulo": "Leyes de De Morgan y Tablas",
-          "enunciado": "En un grupo de estudiantes, el 60% aprueba Matemáticas ($M$), el 50% aprueba Física ($F$) y el 20% no aprueba ninguna de las dos.\na) Calcule la probabilidad de que un alumno apruebe ambas.\nb) Si un alumno aprobó Física, ¿cuál es la probabilidad de que no aprobara Matemáticas?",
-          "rubrica": "1 punto (Apartado a): 0.5 por identificar $P(\\bar{M} \\cap \\bar{F})=0.2 \\implies P(M \\cup F)=0.8$; 0.5 por hallar la intersección (0.3). 1 punto (Apartado b): 1 punto por la probabilidad condicionada.",
-          "tip": "Las leyes de De Morgan son vitales aquí: 'Ni una ni otra' es el contrario de 'una o la otra'."
+          "titulo": "Leyes de De Morgan",
+          "enunciado": "El 70% usa Instagram y el 40% TikTok. El 20% no usa ninguna. Calcule la probabilidad de que un usuario de Instagram también use TikTok.",
+          "rubrica": "1 pto por identificar la unión mediante De Morgan y hallar la intersección. 1 pto por la probabilidad condicionada final.",
+          "tip": "Usa $P(\\bar{I} \\cap \\bar{T}) = P(\\overline{I \\cup T}) = 0.2$ para hallar primero la unión y luego la intersección."
+        },
+        {
+          "id": "EST-06",
+          "titulo": "Axiomas de Kolmogorov (Conceptual)",
+          "enunciado": "Sean $A$ y $B$ dos sucesos con $P(A)=0.6$ y $P(B)=0.3$. Calcule el valor máximo y el valor mínimo que puede tomar la probabilidad de la unión $P(A \\cup B)$.",
+          "rubrica": "2 ptos por el razonamiento conceptual sobre la intersección máxima y mínima. Es una cuestión competencial-conceptual.",
+          "tip": "El máximo de la unión ocurre cuando son disjuntos; el mínimo cuando el pequeño está dentro del grande."
+        },
+        {
+          "id": "EST-07",
+          "titulo": "Cálculo de Parámetros (Cierre)",
+          "enunciado": "En una distribución $N(50, \\sigma)$, se sabe que $P(X > 60) = 0.1587$. Calcule $\\sigma$.\n(Dato: $P(Z < 1) = 0.8413$).",
+          "rubrica": "1 pto por identificar Z=1 mediante la probabilidad del suceso contrario. 1 pto por despejar $\\sigma=10$. Errores de notación restan 0.2 ptos.",
+          "tip": "Si $P(X>60)=0.1587$, entonces $P(X \\leq 60) = 0.8413$. Eso te da el valor de $Z$ directamente."
+        }
+      ],
+      "Sentido Algebraico (Álgebra)": [
+        {
+          "id": "MAT-ALG-08",
+          "titulo": "Discusión de Sistemas (Parámetro m)",
+          "enunciado": "Discuta según los valores de $m$ el sistema:\n$$\\begin{cases} mx + y + z = 1 \\\\ x + my + z = m \\\\ x + y + mz = m^2 \\end{cases}$$",
+          "rubrica": "0.5 ptos por el determinante y valores críticos. 1.5 ptos por la discusión usando el Teorema de Rouché-Frobenius. Si solo se indica el nombre del caso sin comparar rangos, la nota es 0 ptos.",
+          "tip": "Cita explícitamente el Teorema de Rouché-Frobenius al comparar el rango de la matriz $A$ y la ampliada $A^*$."
+        },
+        {
+          "id": "MAT-ALG-09",
+          "titulo": "Ecuación Matricial",
+          "enunciado": "Calcule $X$ en $AX - B = 2X$ siendo $A = \\begin{pmatrix} 3 & 0 \\\\ 1 & 3 \\end{pmatrix}$ y $B = \\begin{pmatrix} 1 & 2 \\\\ 1 & 0 \\end{pmatrix}$.",
+          "rubrica": "0.75 ptos por despejar $X = (A - 2I)^{-1} B$. 1.25 ptos por la inversa y el producto. Es obligatorio justificar que $|A - 2I| \\neq 0$ antes de invertir.",
+          "tip": "No puedes dividir matrices. Debes multiplicar por la izquierda por la inversa de $(A-2I)$."
+        },
+        {
+          "id": "MAT-ALG-10",
+          "titulo": "Problema Competencial (Logística)",
+          "enunciado": "Un centro sanitario compra tres tipos de fármacos. Traduzca el enunciado de compras y gastos totales a un sistema matricial y determine el precio unitario de cada producto.",
+          "rubrica": "1 pto por la formulación del sistema $AX=B$. 1 pto por la resolución e interpretación obligatoria de la solución en el contexto.",
+          "tip": "Define $x, y, z$ como los precios unitarios. Al final, responde con una frase: 'El fármaco A cuesta...'"
+        },
+        {
+          "id": "MAT-ALG-11",
+          "titulo": "Inversas y Parámetros",
+          "enunciado": "Sea $M = \\begin{pmatrix} 1 & 0 & k \\\\ 0 & k & 1 \\\\ 1 & 0 & 2 \\end{pmatrix}$. Determine $k$ para que no tenga inversa. Calcule $M^{-1}$ para $k=1$.",
+          "rubrica": "1 pto por el estudio del determinante. 1 pto por el cálculo de la adjunta y traspuesta. Errores de cálculo restan el 25% del apartado.",
+          "tip": "Para el apartado b, con $k=1$, el determinante es $2-1=1$. Esto facilita mucho el cálculo de la inversa."
+        },
+        {
+          "id": "MAT-ALG-12",
+          "titulo": "Álgebra Abstracta",
+          "enunciado": "Si $A^2 - A = I$, demuestre que $A$ es invertible y exprese $A^{-1}$ en función de $A$ e $I$.",
+          "rubrica": "2 ptos por la factorización $A(A - I) = I$. Un error de concepto (como intentar dividir por A) invalida el ejercicio.",
+          "tip": "Usa la definición de inversa: si existe $B$ tal que $A \\cdot B = I$, entonces $B = A^{-1}$."
+        },
+        {
+          "id": "MAT-ALG-13",
+          "titulo": "Simetría (Refuerzo)",
+          "enunciado": "Determine $a$ y $b$ para que $M = \\begin{pmatrix} 0 & 1 \\\\ a-b & 0 \\end{pmatrix}$ sea antisimétrica. Calcule $M^2$.",
+          "rubrica": "2 ptos. Se evalúa la definición $M = -M^T$. No usar la notación correcta de traspuesta resta 0.2 ptos de rigor.",
+          "tip": "Antisimétrica implica que los elementos de la diagonal son 0 y los opuestos son iguales pero de distinto signo."
+        },
+        {
+          "id": "MAT-ALG-14",
+          "titulo": "Propiedades de Determinantes (Cierre)",
+          "enunciado": "Si $A$ es una matriz $3 \\times 3$ y $|A| = 5$, calcule $|2A^{-1}|$ y razone qué ocurre con el determinante si intercambiamos dos filas.",
+          "rubrica": "1 pto por aplicar $|kA| = k^n |A|$. 1 pto por la explicación teórica. Sin justificación teórica, la puntuación es 0.",
+          "tip": "Recuerda que $n$ es la dimensión. Aquí $n=3$, así que el factor sale como $2^3=8$."
         }
       ],
       "Sentido de la Medida (Análisis)": [
         {
-          "id": "ANA-06",
-          "titulo": "Continuidad, Derivabilidad y Parámetros",
-          "enunciado": "Sea la función $f(x) = \\begin{cases} ax^2+3x & \\text{si } x \\leq 2 \\\\ \\ln(x-1)+b & \\text{si } x > 2 \\end{cases}$.\na) Halle $a$ y $b$ para que sea continua y derivable en $x=2$.\nb) Para esos valores, determine la ecuación de la recta tangente en $x=2$.",
-          "rubrica": "1 punto (Apartado a): 0.5 por límites laterales (continuidad); 0.5 por derivadas laterales. 1 punto (Apartado b): 0.5 por hallar el punto $(2, f(2))$ y la pendiente $f'(2)$; 0.5 por la ecuación final.",
-          "tip": "Para la derivabilidad, primero debes asegurar la continuidad igualando los límites laterales en el punto de salto."
+          "id": "ANA-15",
+          "titulo": "Derivabilidad con Parámetros",
+          "enunciado": "Halle $a$ y $b$ para que $f(x) = \\begin{cases} ax^2+3x & \\text{si } x \\leq 2 \\\\ \\ln(x-1)+b & \\text{si } x > 2 \\end{cases}$ sea derivable en $x=2$.",
+          "rubrica": "1 pto por continuidad (límites laterales). 1 pto por derivabilidad. Aplicar derivadas sin garantizar continuidad previa se penaliza.",
+          "tip": "Primero obliga a que los límites coincidan (continuidad). Solo después iguala las derivadas."
         },
         {
-          "id": "ANA-07",
-          "titulo": "Optimización (Superficie Mínima)",
-          "enunciado": "Se desea construir una caja sin tapa con una base cuadrada. El volumen total debe ser de $108 cm^3$. Halle las dimensiones de la caja para que la superficie de cartón empleada sea mínima.",
-          "rubrica": "0.5 puntos: Planteamiento de las funciones objetivo ($S=x^2+4xh$) y de ligadura ($V=x^2h$). 1 punto: Derivación y búsqueda de puntos críticos (x=6). 0.5 puntos: Justificación de que es un mínimo (segunda derivada o signo de la primera).",
-          "tip": "Despeja una variable de la ecuación del volumen y sustitúyela en la de la superficie antes de derivar."
+          "id": "ANA-16",
+          "titulo": "Optimización",
+          "enunciado": "Halle las dimensiones de un huerto rectangular de $100 m^2$ para que el vallado sea mínimo.",
+          "rubrica": "1 pto por la función objetivo y de ligadura. 1 pto por la derivada y justificación de que es un mínimo (obligatorio).",
+          "tip": "Usa el criterio de la segunda derivada ($f''(x) > 0$) para demostrar que el valor hallado es realmente un mínimo."
         },
         {
-          "id": "ANA-08",
+          "id": "ANA-17",
           "titulo": "Teoremas de Bolzano y Rolle",
-          "enunciado": "a) Enuncie el Teorema de Bolzano.\nb) Demuestre que la ecuación $x^3+x-1=0$ tiene al menos una solución real en el intervalo $[0, 1]$.\nc) Razone, usando la derivada, si esa solución es única.",
-          "rubrica": "0.5 puntos: Enunciado correcto del teorema. 0.75 puntos (Bolzano): Comprobación de hipótesis (continuidad y cambio de signo). 0.75 puntos (Unicidad): Justificación de que $f'(x)=3x^2+1 > 0$, luego es estrictamente creciente.",
-          "tip": "Si la derivada es siempre positiva, la función siempre sube y solo puede cruzar el eje X una vez."
+          "enunciado": "Demuestre que $x^3 + x - 1 = 0$ tiene exactamente una raíz real en el intervalo $[0, 1]$.",
+          "rubrica": "1 pto por el Teorema de Bolzano (comprobando hipótesis). 1 pto por la unicidad mediante la derivada positiva (estricto crecimiento).",
+          "tip": "Bolzano garantiza que 'cruza'. La derivada positiva garantiza que 'no vuelve a cruzar'."
         },
         {
-          "id": "ANA-09",
-          "titulo": "Cálculo de Áreas con Esbozo",
-          "enunciado": "Calcule el área de la región encerrada por la parábola $f(x)=x^2-4x$ y la recta $g(x)=-x$. Haga un esbozo gráfico de la región.",
-          "rubrica": "0.5 puntos: Esbozo gráfico correcto raiado (obligatorio). 0.5 puntos: Cálculo de puntos de corte (x=0, x=3). 1 punto: Planteamiento y resolución de la integral definida.",
-          "tip": "Dibuja la región antes de integrar; los puntos de corte serán tus límites de integración."
+          "id": "ANA-18",
+          "titulo": "Áreas con Esbozo",
+          "enunciado": "Calcule el área entre $f(x) = x^2 - 4x$ y $g(x) = -x$. Es obligatorio hacer un esbozo gráfico.",
+          "rubrica": "0.75 ptos por el dibujo sombreado. 1.25 ptos por la integral y la Regla de Barrow.",
+          "tip": "El dibujo no es un extra, es parte de la nota. Sombrea claramente el área encerrada entre ambas curvas."
         },
         {
-          "id": "ANA-10",
-          "titulo": "Cálculo de Límites (L'Hôpital)",
-          "enunciado": "Calcule los siguientes límites:\na) $\\lim_{x\\to 0} \\frac{e^x - e^{-x} - 2x}{x - \\sin x}$\nb) $\\lim_{x\\to \\infty} (1 + \\frac{1}{x^2})^x$",
-          "rubrica": "1 punto (Apartado a): 0.5 por cada aplicación de L'Hôpital (se requiere aplicar 3 veces). 1 punto (Apartado b): Transformación correcta e identificación del límite tipo número e.",
-          "tip": "En el apartado a, no te desesperes; aplica la regla hasta que la indeterminación desaparezca."
+          "id": "ANA-19",
+          "titulo": "Límites (L'Hôpital)",
+          "enunciado": "Calcule $\\lim_{x \\to 0} \\frac{e^x - e^{-x} - 2x}{x - \\sin x}$.",
+          "rubrica": "2 ptos. Cada aplicación de la regla debe citarse y comprobar la indeterminación $0/0$ para puntuar.",
+          "tip": "En este caso deberás aplicar L'Hôpital tres veces. No olvides escribir 'Aplicamos L'Hôpital por 0/0' en cada paso."
+        },
+        {
+          "id": "ANA-20",
+          "titulo": "Asíntotas y Recta Normal (Refuerzo)",
+          "enunciado": "Sea $f(x) = \\frac{x^2}{x-1}$. Estudie sus asíntotas y la recta normal en $x=2$.",
+          "rubrica": "1 pto por el estudio de límites (V, H, O). 1 pto por la ecuación de la normal usando la pendiente perpendicular $-1/f'(2)$. ",
+          "tip": "Recuerda que la pendiente de la normal es la inversa opuesta de la pendiente de la tangente."
+        },
+        {
+          "id": "ANA-21",
+          "titulo": "Curvatura e Inflexión (Cierre)",
+          "enunciado": "Determine los intervalos de concavidad y los puntos de inflexión de $f(x) = x^4 - 6x^2 + 1$.",
+          "rubrica": "1 pto por la segunda derivada y sus raíces. 1 pto por el estudio de signos y coordenadas de los puntos de inflexión.",
+          "tip": "Dibuja una tabla de signos para $f''(x)$. Los puntos de inflexión son donde la curvatura cambia de signo."
+        },
+        {
+          "id": "ANA-22",
+          "titulo": "Integrales Racionales (Cierre)",
+          "enunciado": "Calcule la primitiva $\\int \\frac{1}{x^2-5x+6} dx$.",
+          "rubrica": "1 pto por la descomposición en fracciones simples. 1 pto por la resolución de las integrales logarítmicas con su constante $C$.",
+          "tip": "Factoriza el denominador como $(x-2)(x-3)$ antes de descomponer en $A/(x-2) + B/(x-3)$."
         }
       ],
       "Sentido Espacial (Geometría)": [
         {
-          "id": "GEO-11",
-          "titulo": "Posición Relativa con Parámetros",
-          "enunciado": "Estudie, según $k$, la posición relativa de la recta $r: \\begin{cases} x=1+\\lambda \\\\ y=k\\lambda \\\\ z=2 \\end{cases}$ y el plano $\\pi: 2x - y + kz = 1$.",
-          "rubrica": "0.75 puntos: Planteamiento del sistema o uso del producto escalar ($\\vec{d} \\cdot \\vec{n} = 2-k$). 1.25 puntos: Discusión completa: Caso $k \\neq 2$ (se cortan); Caso $k=2$ (paralelos o contenida).",
-          "tip": "Usa los vectores para ver si la recta 'pincha' al plano o si corre paralela a él."
+          "id": "GEO-23",
+          "titulo": "Posición Relativa",
+          "enunciado": "Estudie según $k$ la posición entre $r: \\begin{cases} x=1+\\lambda \\\\ y=k\\lambda \\\\ z=2 \\end{cases}$ y $\\pi: 2x - y + kz = 1$.",
+          "rubrica": "2 ptos por el producto escalar $\\vec{d} \\cdot \\vec{n}$ y la discusión de casos. Confundir paralelismo con perpendicularidad anula el apartado.",
+          "tip": "El vector director de la recta es $\\vec{d}(1, k, 0)$ y el normal del plano es $\\vec{n}(2, -1, k)$."
         },
         {
-          "id": "GEO-12",
-          "titulo": "El Punto Simétrico",
-          "enunciado": "Halle el punto simétrico de $P(1, 0, 1)$ respecto al plano $\\pi: x-y+2z=10$.",
-          "rubrica": "0.5 puntos: Hallar la recta perpendicular a $\\pi$ por $P$. 0.75 puntos: Hallar el punto de corte $Q$ (proyección). 0.75 puntos: Aplicar la fórmula del punto medio para hallar $P'$.",
-          "tip": "El punto simétrico es aquel que está a la misma distancia del plano que $P$, pero al otro lado."
+          "id": "GEO-24",
+          "titulo": "Punto Simétrico",
+          "enunciado": "Halle el simétrico de $P(1, 0, 1)$ respecto al plano $\\pi: x-y+2z=10$.",
+          "rubrica": "0.5 ptos recta perpendicular. 0.75 ptos punto de corte (proyección). 0.75 ptos punto medio. La falta de flechas en vectores resta 0.2 ptos.",
+          "tip": "Calcula primero la proyección $Q$. El punto simétrico $P'$ cumple que $Q$ es el punto medio entre $P$ y $P'$."
         },
         {
-          "id": "GEO-13",
+          "id": "GEO-25",
           "titulo": "Ángulos y Distancias",
-          "enunciado": "a) Calcule el ángulo que forman los planos $\\pi_1: x+y+z=1$ y $\\pi_2: x-y=0$.\nb) Calcule la distancia del punto $A(1, 1, 1)$ a la recta $r: \\frac{x}{2} = \\frac{y-1}{1} = \\frac{z+1}{-1}$.",
-          "rubrica": "0.75 puntos: Uso de la fórmula del coseno entre vectores normales. 1.25 puntos: Uso de la fórmula de la distancia punto-recta (producto vectorial).",
-          "tip": "Para el ángulo, usa el producto escalar de los vectores normales de los planos."
+          "enunciado": "Calcule el ángulo entre los planos $\\pi_1: x+y+z=1$ y $\\pi_2: x-y=0$, y la distancia de $A(1, 1, 1)$ a la recta $r: x=y=z$.",
+          "rubrica": "1 pto fórmula del coseno. 1 pto fórmula de la distancia (producto vectorial). Es obligatorio citar los vectores usados.",
+          "tip": "Para la distancia punto-recta, usa la fórmula del módulo del producto vectorial dividido por el módulo del vector director."
         },
         {
-          "id": "GEO-14",
+          "id": "GEO-26",
           "titulo": "Áreas y Volúmenes",
-          "enunciado": "Dados los puntos $A(0,0,0), B(1,2,1), C(2,0,1)$ y $D(1,1,5)$:\na) Calcule el área del triángulo $ABC$.\nb) Calcule el volumen del tetraedro $ABCD$.",
-          "rubrica": "1 punto (Apartado a): Producto vectorial y norma dividido por 2. 1 punto (Apartado b): Producto mixto dividido por 6.",
-          "tip": "El valor absoluto del determinante es fundamental; un volumen nunca puede ser negativo."
+          "enunciado": "Calcule el área del triángulo $ABC$ y el volumen del tetraedro $ABCD$ con los puntos $A(0,0,0), B(1,2,1), C(2,0,1)$ y $D(1,1,5)$.",
+          "rubrica": "1 pto por el área (módulo del producto vectorial / 2). 1 pto por el volumen (producto mixto / 6). Olvidar dividir resta 0.25 ptos.",
+          "tip": "¡No olvides las unidades! $u^2$ para el área y $u^3$ para el volumen."
         },
         {
-          "id": "GEO-15",
-          "titulo": "Rectas bajo condiciones",
-          "enunciado": "Halle la ecuación de la recta $s$ que pasa por $P(2, -1, 1)$, es paralela al plano $\\pi: x+y=0$ y corta a la recta $r: x=y=z$.",
-          "rubrica": "1 punto: Planteamiento del plano o punto genérico. 1 punto: Imposición de paralelismo (producto escalar nulo).",
-          "tip": "Expresa la recta $r$ en paramétricas para encontrar el punto de corte más fácilmente."
+          "id": "GEO-27",
+          "titulo": "Rectas Bajo Condiciones",
+          "enunciado": "Halle la recta que pasa por $P(2, -1, 1)$, es paralela a $\\pi: x+y=0$ y corta a $r: x=y=z$.",
+          "rubrica": "2 ptos. Se evalúa el uso de un punto genérico de $r$ y la condición de perpendicularidad entre el vector director y el normal del plano.",
+          "tip": "Escribe un punto genérico de $r$ como $R(\\lambda, \\lambda, \\lambda)$. El vector $\\vec{PR}$ debe ser perpendicular al normal de $\\pi$."
+        },
+        {
+          "id": "GEO-28",
+          "titulo": "Perpendicular Común (Refuerzo)",
+          "enunciado": "Halle la perpendicular común a las rectas $r: \\{x=1+\\lambda, y=1, z=0\\}$ y $s: \\{x=0, y=\\mu, z=1\\}$.",
+          "rubrica": "2 ptos. 1 pto por el vector director (producto vectorial de directores). 1 pto por la construcción de la recta.",
+          "tip": "El vector director de la perpendicular común es el producto vectorial de los vectores directores de $r$ y $s$."
+        },
+        {
+          "id": "GEO-29",
+          "titulo": "Recta Simétrica (Cierre)",
+          "enunciado": "Determine la ecuación de la recta $s$ simétrica de $r: \\{x=2\\lambda, y=\\lambda, z=0\\}$ respecto al plano $\\pi: z=1$.",
+          "rubrica": "0.5 ptos por el punto de intersección $I = r \\cap \\pi$. 0.75 ptos por el simétrico de un punto auxiliar. 0.75 ptos por la recta final.",
+          "tip": "Halla el punto de corte $I$ de la recta con el plano. El simétrico de cualquier otro punto de $r$ y el punto $I$ definen la recta simétrica."
         }
       ]
     }
@@ -154,7 +217,7 @@
   "reglas_2026": [
     "Justificación de Existencia: Antes de calcular una distancia punto-plano, se debe justificar la posición relativa.",
     "Rigor en Notación: Se restarán hasta 0.2 puntos si se confunden vectores con puntos o falta la flecha.",
-    "No hay Tabla Normal: Buscar valores específicos dentro del enunciado (Ejemplo 2).",
+    "No hay Tabla Normal: Buscar valores específicos dentro del enunciado.",
     "Justificación de Teoremas: Escribir: 'Como f(x) es continua en [a,b] y derivable en (a,b), por el Teorema de...'"
   ]
 }
