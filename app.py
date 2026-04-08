@@ -1,10 +1,18 @@
 import streamlit as st
 import json
 
-# Configuración de página
-st.set_page_config(page_title="Corrector Matemáticas II", layout="centered")
+# Configuración estética
+st.set_page_config(page_title="Corrector CiUG 2026", layout="wide")
 
-# Cargar datos
+# Estilo personalizado NotebookLM
+st.markdown("""
+    <style>
+    .main { background-color: #f8f9fa; }
+    .stSelectbox label, .stButton button { font-weight: bold; }
+    .reportview-container .main .block-container { padding-top: 2rem; }
+    </style>
+    """, unsafe_allow_html=True)
+
 def load_data():
     with open('matematicas.json', 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -12,56 +20,60 @@ def load_data():
 data = load_data()
 asignatura = "Matemáticas II"
 
-st.title("📚 Asistente de Corrección CiUG")
-st.markdown("---")
-
-# Selección de Bloque y Ejercicio
+# Sidebar organizada
+st.sidebar.title("🛠️ Panel de Control")
 bloques = list(data['asignaturas'][asignatura].keys())
 bloque_sel = st.sidebar.selectbox("Selecciona Bloque", bloques)
 
 ejercicios = data['asignaturas'][asignatura][bloque_sel]
 titulos_ejercicios = [f"{ej['id']} - {ej['titulo']}" for ej in ejercicios]
-ej_sel_index = st.sidebar.selectbox("Selecciona Ejercicio", range(len(titulos_ejercicios)), format_func=lambda x: titulos_ejercicios[x])
+ej_sel_index = st.sidebar.selectbox("Ejercicio", range(len(titulos_ejercicios)), format_func=lambda x: titulos_ejercicios[x])
 
 ejercicio_actual = ejercicios[ej_sel_index]
+reglas_2026 = "\n".join([f"- {r}" for r in data['reglas_2026']])
 
-# Mostrar contenido del ejercicio
-st.subheader(f"{ejercicio_actual['id']}: {ejercicio_actual['titulo']}")
-st.info("**ENUNCIADO:**\n\n" + ejercicio_actual['enunciado'])
+# Cuerpo principal
+col1, col2 = st.columns([1, 1])
 
-with st.expander("Ver Rúbrica y Tips"):
-    st.write("**Rúbrica Oficial:**", ejercicio_actual['rubrica'])
-    st.write("**Consejo Pedagógico:**", ejercicio_actual['tip'])
+with col1:
+    st.title("📄 Enunciado")
+    st.markdown(f"### {ejercicio_actual['id']} - {ejercicio_actual['titulo']}")
+    # Renderizado de fórmulas
+    st.write(ejercicio_actual['enunciado'])
+    
+    st.divider()
+    st.subheader("💡 Ayuda Pedagógica")
+    st.info(ejercicio_actual['tip'])
 
-st.markdown("---")
+with col2:
+    st.title("⚖️ Rúbrica CiUG")
+    with st.expander("Ver criterios de puntuación", expanded=True):
+        st.write(ejercicio_actual['rubrica'])
+    
+    with st.expander("⚠️ Novedades Tutoría 2026"):
+        st.write(reglas_2026)
 
-# Generador de Prompt
-st.subheader("🤖 Generador de Prompt para IA")
-st.write("Haz clic en el botón de la esquina superior derecha del cuadro gris para copiar el texto. Luego pégalo en ChatGPT/Gemini junto a la foto de tu ejercicio.")
+st.divider()
 
-prompt_final = f"""Actúa como un corrector experto de las pruebas ABAU de la CiUG (Galicia). 
-Mi examen de Matemáticas II consiste en el siguiente ejercicio:
+# Generador de Prompt Elegante
+st.subheader("🤖 Copiar Prompt para Corrección")
+prompt_final = f"""Actúa como un corrector oficial de la CiUG (Galicia) para la ABAU 2026.
+Corrige el ejercicio de la imagen basándote en:
 
-ENUNCIADO:
+EJERCICIO:
 {ejercicio_actual['enunciado']}
 
-CRITERIOS DE CORRECCIÓN (RÚBRICA):
+RÚBRICA DETALLADA:
 {ejercicio_actual['rubrica']}
 
-CONSEJO ADICIONAL:
-{ejercicio_actual['tip']}
+REGLAS DE ORO 2026 (Obligatorio aplicar):
+{reglas_2026}
 
-INSTRUCCIONES PARA TI:
-1. Analiza la imagen de mi ejercicio resuelto.
-2. Compara mi resolución con el enunciado y la rúbrica.
-3. Proporciona una NOTA estimada sobre 2.5 puntos.
-4. Indica fallos específicos de cálculo o de rigor matemático.
-5. Dime qué debería mejorar para obtener la máxima puntuación.
+INSTRUCCIONES DE RESPUESTA:
+1. Evalúa el rigor en la notación (puntos vs vectores).
+2. Estima la nota sobre el total indicado.
+3. Sé directo pero motivador. Indica fallos de cálculo paso a paso.
+4. Si falta el esbozo gráfico (en análisis) o justificación de teoremas, penaliza según la rúbrica."""
 
-Responde de forma clara y motivadora."""
-
-# Componente de código (permite copiar fácilmente)
 st.code(prompt_final, language="text")
-
-st.markdown("---")
-st.caption("Herramienta de apoyo al estudio - Sin conexión directa con IA para evitar costes.")
+st.caption("Copia este texto y pégalo en tu IA junto a la foto de tu libreta.")
