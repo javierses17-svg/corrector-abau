@@ -1,0 +1,43 @@
+{
+  "asignaturas": {
+    "Matemáticas II": {
+      "Álgebra": [
+        {
+          "id": "MAT-ALG-01",
+          "titulo": "Discusión de Sistema con Parámetro",
+          "enunciado": "Discuta, según los valores del parámetro k, el siguiente sistema de ecuaciones:\nkx + y + z = 1\nx + ky + z = k\nx + y + kz = k²",
+          "rubrica": "Puntuación máxima 2.5 puntos. 1.0 punto por la determinación de los valores críticos de k (cálculo del determinante de la matriz de coeficientes). 1.0 punto por la discusión correcta de los tres casos posibles (Sistema Compatible Determinado, Sistema Compatible Indeterminado o Sistema Incompatible) aplicando el Teorema de Rouché-Frobenius. 0.5 puntos por el rigor en la notación matemática y la claridad en la exposición de las conclusiones.",
+          "tip": "Recuerda que si el determinante es distinto de cero, el sistema siempre es Compatible Determinado. No olvides analizar qué ocurre con los rangos de la matriz ampliada en los casos críticos."
+        },
+        {
+          "id": "MAT-ALG-02",
+          "titulo": "Potencia de Matriz y Ecuación Matricial",
+          "enunciado": "Dadas las matrices A = [[1, 0], [-1, 1]] y B = [[2, 1], [0, -1]]:\na) Calcula la potencia A elevado a 2026.\nb) Halla la matriz X que verifica la ecuación: AX + B = 2X",
+          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.25 puntos): 0.5 por calcular A², A³ y detectar la ley de formación por inducción, 0.75 por dar la expresión general correcta de A^n. Apartado b (1.25 puntos): 0.5 por despejar correctamente la matriz X (X = (2I - A)⁻¹ * B o equivalente) y 0.75 por el cálculo correcto de la matriz inversa y el producto final.",
+          "tip": "Para el apartado a, no calcules potencias altas; busca el patrón en las primeras tres. Para el b, ten mucho cuidado con el orden al multiplicar por la inversa (la propiedad distributiva)."
+        },
+        {
+          "id": "MAT-ALG-03",
+          "titulo": "Problema de Planteamiento (Furgonetas)",
+          "enunciado": "Un transporte tiene 3 tipos de furgonetas (A, B y C). Se sabe que:\n- 2A + 3B + C = 50 paquetes\n- A + 2B + C = 35 paquetes\n- 4A + 4B + 2C = 100 paquetes\n¿Es posible determinar cuántos paquetes lleva cada furgoneta? Justifica la respuesta mediante el estudio del rango del sistema.",
+          "rubrica": "Puntuación máxima 2.5 puntos. 0.5 puntos por el planteamiento correcto del sistema de ecuaciones. 1.5 puntos por el estudio de los rangos (matriz de coeficientes y ampliada) usando el método de Gauss o determinantes. 0.5 puntos por la conclusión final razonada (si el sistema tiene solución única, infinitas o ninguna).",
+          "tip": "Si el rango de la matriz de coeficientes es igual al de la ampliada pero menor al número de incógnitas, el sistema es compatible indeterminado (infinitas soluciones)."
+        },
+        {
+          "id": "MAT-ALG-04",
+          "titulo": "Inversa de Matriz con Parámetro",
+          "enunciado": "Sea la matriz M dependiente del parámetro k:\nM = [[1, 0, k], [0, k, 1], [1, 0, 2]]\na) ¿Para qué valores de k la matriz M no tiene inversa?\nb) Para k = 1, resuelve la ecuación matricial: M * X = M^t (donde M^t es la traspuesta de M).",
+          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.0 punto): Cálculo del determinante igualado a cero y obtención del valor k=2. Apartado b (1.5 puntos): 0.5 por el cálculo de la matriz traspuesta, 0.5 por la inversa de M y 0.5 por el producto final para hallar X.",
+          "tip": "Una matriz no tiene inversa si y solo si su determinante es cero. Revisa bien los signos al calcular la matriz de adjuntos."
+        },
+        {
+          "id": "MAT-ALG-05",
+          "titulo": "Propiedades de Matrices Invertibles",
+          "enunciado": "Dada la ecuación matricial A² - A = I (donde I es la matriz identidad):\na) Demuestra que A es invertible y expresa su inversa en función de A e I.\nb) Expresa la matriz A⁴ como una combinación lineal de A e I.",
+          "rubrica": "Puntuación máxima 2.5 puntos. Apartado a (1.0 punto): Justificación mediante la extracción de factor común A(A - I) = I y aplicación de la definición de inversa. Apartado b (1.5 puntos): Procedimiento de sustitución recurrente usando A² = A + I hasta llegar a la expresión final (3A + 2I).",
+          "tip": "Este ejercicio es puramente teórico. No intentes inventar números para A; usa solo las letras y las propiedades de la matriz identidad."
+        }
+      ]
+    }
+  }
+}
