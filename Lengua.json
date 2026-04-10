@@ -7,21 +7,21 @@
           "titulo": "Síntesis y jerarquización de ideas",
           "enunciado": "Lea el siguiente texto de Rosa Montero y realice un resumen de entre seis y diez líneas o, si lo prefiere, elabore un esquema nominal que refleje las ideas principales.\n\n\"Sé que no te apetece leer sobre esto. Que no quieres ni acordarte. Que pasas de puntillas por las páginas que lo mencionan. A mí también me ocurre. Es demasiado grande y demasiado horrible y no sabemos cómo manejarlo. Me refiero al drama permanente de los cayucos, exacerbado en las últimas semanas por la tragedia de El Hierro. El tema nos provoca una contusión mental y ética. Nuestra pasividad nos hace sentir culpables, pero por otro lado en realidad no creemos tener culpa. Habría que hacer algo, rumia una parte de nuestra conciencia, pero es un algo tan vago, y parece tan fuera de nuestro alcance, que enseguida retornamos a la casilla de salida: a la pasividad, a la culpabilidad, a la incomodidad y, por consiguiente, a cerrar los ojos e ignorarlo.\"",
           "rubrica": "Puntuación (1 punto): 0,5 por capacidad de síntesis y 0,5 por objetividad y jerarquización. Resumen: Debe ocupar entre 6 y 10 líneas. Se penalizará con hasta -0,5 si la extensión es inadecuada o si se copian fragmentos literales. Esquema: Debe emplear estructuras nominales (no oracionales). Se penalizará con hasta -0,5 si no están jerarquizadas. Corrección formal: -0,15 por tilde; -0,25 por falta de ortografía o error léxico.",
-          "tip": "Evita fórmulas introductorias como 'El texto dice que...'. En el esquema, utiliza sustantivos abstractos (ej. 'Inacción social', 'Causas climáticas') para ganar precisión y profesionalidad."
+          "tip": "Evita fórmulas introductorias como \"El texto dice que...\". En el esquema, utiliza sustantivos abstractos (ej. \"Inacción social\", \"Causas climáticas\") para ganar precisión y profesionalidad."
         },
         {
           "id": "CAS-COM-02",
           "titulo": "Análisis de la estructura y organización textual",
-          "enunciado": "Determine la estructura interna del texto de Rosa Montero anterior, identificando la tesis y los diferentes tipos de argumentos empleados.",
+          "enunciado": "Determine la estructura interna del texto de Rosa Montero anterior (Drama de los cayucos), identificando la tesis y los diferentes tipos de argumentos empleados.\n\nTEXTO DE REFERENCIA:\n\"Sé que no te apetece leer sobre esto. Que no quieres ni acordarte... [Drama de los cayucos] ... retornar a la casilla de salida: a la pasividad, a la culpabilidad, a la incomodidad y, por consiguiente, a cerrar los ojos e ignorarlo.\"",
           "rubrica": "Análisis (1 punto): Identificación de partes (introducción, cuerpo, conclusión): 0,4. Localización de la tesis: 0,3. Identificación de argumentos (datos, experiencia, autoridad): 0,3. Penalizaciones: No delimitar claramente las partes o confundir un ejemplo con un argumento restará proporcionalmente.",
-          "tip": "No te limites a decir dónde empieza y acaba cada parte; explica qué hace la autora en ellas (ej. 'En el segundo párrafo desarrolla las causas económicas del conflicto')."
+          "tip": "No te limites a decir dónde empieza y acaba cada parte; explica qué hace la autora en ellas (ej. \"En el segundo párrafo desarrolla las causas económicas del conflicto\")."
         },
         {
           "id": "CAS-COM-03",
           "titulo": "Intención comunicativa y adecuación",
-          "enunciado": "Explique la intención comunicativa del texto de Rosa Montero y justifique qué funciones del lenguaje predominan en el fragmento.",
+          "enunciado": "Explique la intención comunicativa del texto de Rosa Montero y justifique qué funciones del lenguaje predominan en el fragmento.\n\nTEXTO DE REFERENCIA:\n\"Habría que hacer algo, rumia una parte de nuestra conciencia, pero es un algo tan vago, y parece tan fuera de nuestro alcance, que enseguida retornamos a la casilla de salida...\"",
           "rubrica": "Puntuación (1 punto): Identificación de la intención (persuadir, concienciar): 0,4. Función apelativa y expresiva con ejemplos: 0,6.",
-          "tip": "En textos de opinión, la función apelativa suele manifestarse mediante el uso de la primera persona del plural ('nosotros') para implicar emocionalmente al lector en el problema."
+          "tip": "En textos de opinión, la función apelativa suele manifestarse mediante el uso de la primera persona del plural (\"nosotros\") para implicar emocionalmente al lector."
         },
         {
           "id": "CAS-COM-04",
@@ -32,24 +32,24 @@
         },
         {
           "id": "CAS-COM-05",
-          "titulo": "Comentario crítico",
+          "titulo": "Comentario crítico (Adecuación, Coherencia y Cohesión)",
           "enunciado": "Redacte un comentario crítico (30-40 líneas) sobre el drama migratorio y la responsabilidad de los países ricos, manifestando su acuerdo o desacuerdo con Rosa Montero.",
-          "rubrica": "Puntuación (2,5 puntos): Estructura (0,5 pts): Introducción, cuerpo argumentativo y conclusión (sin indicarlas expresamente). Argumentación (1 pt): Capacidad de detectar criterios del autor y argumentar razonadamente acuerdo/desacuerdo. Ejemplificación (0,5 pts): Aporte de ejemplos originales, comparaciones o datos adecuados. Recursos lingüísticos (0,25 pts): Verbos de pensamiento, marcadores, conectores. Corrección y Riqueza (0,25 pts): Adecuación del lenguaje, ausencia de tópicos o fórmulas de relleno. Penalización ortográfica CiUG: -0,15 por tilde; -0,25 por falta.",
-          "tip": "El comentario no es un resumen. Debes 'confrontar tus propias ideas con las defendidas en el texto' y aportar una visión personal fundamentada."
+          "rubrica": "Puntuación (2,5 puntos): Estructura (0,5 pts): Introducción, cuerpo argumentativo y conclusión. Argumentación (1 pt): Capacidad de detectar criterios del autor y argumentar razonadamente. Ejemplificación (0,5 pts): Aporte de ejemplos originales o datos. Recursos lingüísticos (0,25 pts): Verbos de pensamiento, marcadores. Corrección y Riqueza (0,25 pts). Penalización ortográfica CiUG: -0,15 por tilde; -0,25 por falta.",
+          "tip": "El comentario no es un resumen. Debes \"confrontar tus propias ideas con las defendidas en el texto\" y aportar una visión personal fundamentada."
         }
       ],
       "Conocimiento de la Lengua": [
         {
           "id": "CAS-LEN-01",
           "titulo": "Sintaxis: Análisis de funciones y unidades",
-          "enunciado": "Indique la clase de palabra y la función sintáctica de los siguientes segmentos del texto de Rosa Montero: 'demasiado grande', 'nos', 'una parte de nuestra conciencia', 'que' (l. 11: 'un fenómeno que...').",
+          "enunciado": "Indique la clase de palabra y la función sintáctica de los siguientes segmentos del texto de Rosa Montero: \"demasiado grande\", \"nos\", \"una parte de nuestra conciencia\", \"que\" (l. 11: \"un fenómeno que...\").",
           "rubrica": "Puntuación (1,25 puntos): 0,25 por cada unidad y función correcta. Penalizaciones: El error en la identificación de la función primaria (Sujeto/CD) restará la puntuación total del ítem.",
-          "tip": "Los relativos como 'que' tienen doble función: nexo y la función sintáctica de su antecedente dentro de la subordinada."
+          "tip": "Los relativos como \"que\" tienen doble función: nexo y la función sintáctica de su antecedente dentro de la subordinada."
         },
         {
           "id": "CAS-LEN-02",
           "titulo": "Morfología: Formación de palabras y afijos",
-          "enunciado": "Proponga dos palabras derivadas de 'inhabitable' y 'desesperados', explicando el significado que aportan sus afijos en cada caso.",
+          "enunciado": "Proponga dos palabras derivadas de \"inhabitable\" y \"desesperados\", explicando el significado que aportan sus afijos en cada caso.",
           "rubrica": "Puntuación (1 punto): 0,25 por cada palabra y explicación correcta del afijo. Errores: Segmentar mal la raíz o no explicar el valor del prefijo/sufijo restará 0,1 por ítem.",
           "tip": "No necesitas dibujar un árbol, pero separa claramente el afijo (prefijo o sufijo) y define su valor semántico (acción, negación, relación)."
         },
@@ -58,36 +58,36 @@
           "titulo": "Relaciones léxico-semánticas",
           "enunciado": "Indique qué relación semántica existe entre estas parejas de palabras: rico/pobre; vaca/baca; flor/lirio; batalla/lucha.",
           "rubrica": "Puntuación (1 punto): 0,25 por cada relación (Antonimia, Homonimia/Homofonía, Hiperonimia/Hiponimia, Sinonimia).",
-          "tip": "Si es posible, especifica el tipo de antonimia (ej. 'rico/pobre' es antonimia gradual)."
+          "tip": "Si es posible, especifica el tipo de antonimia (ej. \"rico/pobre\" es antonimia gradual)."
         },
         {
           "id": "CAS-LEN-04",
           "titulo": "Corrección y explicación de errores gramaticales",
-          "enunciado": "Identifique y corrija los errores en estas oraciones: 1. 'No me di cuenta que se había ido'. 2. 'Ese restaurante es muy recomendable para personas que les gusta el pescado'.",
-          "rubrica": "Puntuación (1 punto): 0,5 por oración (0,25 corrección, 0,25 explicación técnica). Explicación esperada: 1. Queísmo (falta preposición 'de'). 2. Discordancia/leísmo (falta preposición 'a' antes del relativo 'que').",
+          "enunciado": "Identifique y corrija los errores en estas oraciones: 1. \"No me di cuenta que se había ido\". 2. \"Ese restaurante es muy recomendable para personas que les gusta el pescado\".",
+          "rubrica": "Puntuación (1 punto): 0,5 por oración (0,25 corrección, 0,25 explicación técnica). Explicación: 1. Queísmo. 2. Discordancia/leísmo.",
           "tip": "No te limites a corregir; usa términos lingüísticos (queísmo, dequeísmo, leísmo) para demostrar dominio de la norma."
         },
         {
           "id": "CAS-LEN-05",
           "titulo": "Perífrasis verbales y creación de textos",
-          "enunciado": "Escriba un texto de unas seis líneas que tenga sentido y que incluya: a) una perífrasis modal obligativa, b) una modal de probabilidad, c) una aspectual durativa y d) una aspectual terminativa.",
+          "enunciado": "Escriba un texto de unas seis líneas que tenga sentido e incluya: a) perífrasis modal obligativa, b) modal de probabilidad, c) aspectual durativa y d) aspectual terminativa.",
           "rubrica": "Puntuación (1,25 puntos): 0,25 por cada perífrasis correcta e identificada; 0,25 por la coherencia del texto.",
-          "tip": "Subraya las perífrasis en el texto para que el corrector las identifique fácilmente. Ejemplo de durativa: 'estar + gerundio'."
+          "tip": "Subraya las perífrasis en el texto para que el corrector las identifique fácilmente. Ejemplo de durativa: \"estar + gerundio\"."
         }
       ],
       "Educación Literaria": [
         {
           "id": "CAS-LIT-01",
           "titulo": "Realismo y Naturalismo: Clarín",
-          "enunciado": "Identifique y explique tres características de la narrativa realista en el siguiente fragmento de La Regenta de Clarín. Desarrolle además la trayectoria narrativa de dicho autor.\n\n\"Con Octubre muere en Vetusta el buen tiempo... Son anfibios que se preparan a vivir debajo de agua la temporada que su destino les condena a este elemento. Unos protestan todos los años... Otros, más filósofos, se consuelan pensando que a las muchas lluvias se debe la fertilidad y hermosura del suelo.\"",
-          "rubrica": "Puntuación (2 puntos): 1 punto por caracterización del texto (Vetusta como espacio simbólico, ironía, narrador omnisciente) y 1 punto por desarrollo del tema (Clarín, Galdós, Pardo Bazán). Imprescindibles: Clarín (La Regenta), Galdós (Fortunata y Jacinta), Pardo Bazán (Los pazos de Ulloa).",
+          "enunciado": "Identifique y explique tres características de la narrativa realista en el siguiente fragmento de La Regenta de Clarín. Desarrolle además la trayectoria narrativa de dicho autor.\n\n\"Con Octubre muere en Vetusta el buen tiempo... Son anfibios que se preparan a vivir debajo de agua la temporada que su destino les condena a este elemento...\"",
+          "rubrica": "Puntuación (2 puntos): 1 punto por caracterización del texto (Vetusta, ironía, narrador omnisciente) y 1 punto por desarrollo del tema (Clarín, Galdós, Pardo Bazán). Imprescindibles: Clarín, Galdós, Pardo Bazán.",
           "tip": "No cuentes la vida de Clarín; céntrate en cómo utiliza a Vetusta para criticar la sociedad burguesa."
         },
         {
           "id": "CAS-LIT-02",
           "titulo": "El Modernismo: Rubén Darío",
-          "enunciado": "Explique las características modernistas en este fragmento de Rubén Darío y desarrolle las características generales del movimiento.\n\n\"La princesa está triste... ¿qué tendrá la princesa? / Los suspiros se escapan de su boca de fresa, / que ha perdido la risa, que ha perdido el color. / La princesa está pálida en su silla de oro...\"",
-          "rubrica": "Características del texto (cromatismo, musicalidad, evasión): 1 punto. Teoría (estética, temas, autores): 1 punto. Imprescindibles: Rubén Darío (Azul, Prosas profanas), Delmira Agustini.",
+          "enunciado": "Explique las características modernistas en este fragmento de Rubén Darío y desarrolle las características generales del movimiento.\n\n\"La princesa está triste... ¿qué tendrá la princesa? / Los suspiros se escapan de su boca de fresa...\"",
+          "rubrica": "Características del texto (cromatismo, musicalidad, evasión): 1 punto. Teoría: 1 punto. Imprescindibles: Rubén Darío (Azul, Prosas profanas), Delmira Agustini.",
           "tip": "Menciona la influencia del Parnasianismo y el Simbolismo como pilares del movimiento."
         },
         {
@@ -95,14 +95,14 @@
           "titulo": "La Novela en la Generación del 98",
           "enunciado": "A partir de la lectura de Baroja o Unamuno, desarrolle las características de la novela del 98 y su ruptura con el realismo previo.",
           "rubrica": "Identificación de rasgos (subjetivismo, problemas existenciales): 1 punto. Autores y obras: 1 punto. Imprescindibles: Baroja (El árbol de la ciencia), Unamuno (Niebla), Azorín.",
-          "tip": "Explica el concepto de 'nivola' en Unamuno como ejemplo de renovación técnica."
+          "tip": "Explica el concepto de \"nivola\" en Unamuno como ejemplo de renovación técnica."
         },
         {
           "id": "CAS-LIT-04",
           "titulo": "Poesía: Antonio Machado y Juan Ramón Jiménez",
           "enunciado": "Desarrolle la trayectoria poética de Antonio Machado, mencionando sus etapas fundamentales y obras representativas.",
           "rubrica": "Evolución del autor (Modernismo intimista a preocupación por España): 2 puntos. Imprescindibles: Soledades, Campos de Castilla, Juan Ramón Jiménez.",
-          "tip": "No mezcles la vida personal (Leonor) con la crítica literaria. Céntrate en el paisaje como símbolo del alma."
+          "tip": "Céntrate en el paisaje como símbolo del alma."
         },
         {
           "id": "CAS-LIT-05",
@@ -114,41 +114,52 @@
         {
           "id": "CAS-LIT-06",
           "titulo": "El teatro anterior a la Guerra Civil: Valle-Inclán",
-          "enunciado": "Explique el concepto de 'esperpento' en este fragmento de Luces de Bohemia y desarrolle la trayectoria dramática de Valle-Inclán.\n\n\"MAX –Los héroes clásicos reflejados en los espejos cóncavos dan el Esperpento. El sentido trágico de la vida española sólo puede darse con una estética sistemáticamente deformada... España es una deformación grotesca de la civilización europea.\"",
-          "rubrica": "Caracterización del texto (deformación, crítica social): 1 punto. Desarrollo teórico (etapas de Valle): 1 punto. Imprescindibles: Valle-Inclán, Lorca.",
-          "tip": "Define el esperpento como una 'matemática de espejo cóncavo' aplicada a la realidad nacional."
+          "enunciado": "Explique el concepto de \"esperpento\" en este fragmento de Luces de Bohemia y desarrolle la trayectoria dramática de Valle-Inclán.\n\n\"MAX –Los héroes clásicos reflejados en los espejos cóncavos dan el Esperpento... España es una deformación grotesca de la civilización europea.\"",
+          "rubrica": "Caracterización del texto: 1 punto. Desarrollo teórico (etapas de Valle): 1 punto. Imprescindibles: Valle-Inclán, Lorca.",
+          "tip": "Define el esperpento como una \"matemática de espejo cóncavo\" aplicada a la realidad nacional."
         },
         {
           "id": "CAS-LIT-07",
           "titulo": "Poesía de posguerra: Blas de Otero",
-          "enunciado": "Identifique los rasgos de la 'poesía desarraigada' en este poema de Blas de Otero y explique las tendencias poéticas de posguerra.\n\n\"Imaginé mi horror por un momento / que Dios, el solo vivo, no existiera... Y que la muerte, oh estremecimiento, / fuese el hueco sin luz de una escalera / un colosal vacío...\"",
-          "rubrica": "Identificación de rasgos (angustia, tono desgarrado, búsqueda de Dios): 1 punto. Teoría (arraigada, desarraigada, social): 1 punto. Imprescindibles: Blas de Otero, Miguel Hernández, Gil de Biedma, Gloria Fuertes.",
-          "tip": "Menciona que Otero evoluciona del 'yo' existencial al 'nosotros' de la poesía social."
+          "enunciado": "Identifique los rasgos de la \"poesía desarraigada\" en este poema de Blas de Otero y explique las tendencias poéticas de posguerra.\n\n\"Imaginé mi horror por un momento / que Dios, el solo vivo, no existiera...\"",
+          "rubrica": "Identificación de rasgos (angustia, búsqueda de Dios): 1 punto. Teoría: 1 punto. Imprescindibles: Blas de Otero, Miguel Hernández, Gil de Biedma.",
+          "tip": "Menciona que Otero evoluciona del \"yo\" existencial al \"nosotros\" de la poesía social."
         },
         {
           "id": "CAS-LIT-08",
           "titulo": "La novela de posguerra: Carmen Laforet",
-          "enunciado": "Identifique en este fragmento de Nada tres rasgos de la autora o de la época y desarrolle la novela de posguerra.\n\n\"Todo empezaba a ser extraño en mi imaginación... Ante la puerta del piso me acometió un súbito temor... Oí una voz temblona: '¡Ya va! ¡Ya va!'\"",
-          "rubrica": "Análisis del texto (ambiente opresor, existencialismo, primera persona): 1 punto. Teoría (años 40, 50, 60): 1 punto. Imprescindibles: Laforet (Nada), Cela (La colmena), Delibes, Martín Santos.",
-          "tip": "Relaciona el estilo sobrio de Andrea con la escasez y tristeza de la posguerra inmediata."
+          "enunciado": "Identifique en este fragmento de Nada tres rasgos de la autora o de la época y desarrolle la novela de posguerra.\n\n\"Ante la puerta del piso me acometió un súbito temor... Oí una voz temblona: '¡Ya va! ¡Ya va!'\"",
+          "rubrica": "Análisis del texto: 1 punto. Teoría (años 40, 50, 60): 1 punto. Imprescindibles: Laforet (Nada), Cela, Delibes, Martín Santos.",
+          "tip": "Relaciona el estilo sobrio de Andrea con la tristeza de la posguerra inmediata."
         },
         {
           "id": "CAS-LIT-09",
           "titulo": "El teatro de posguerra: Buero Vallejo y Alfonso Sastre",
           "enunciado": "Desarrolle la trayectoria de Buero Vallejo y su aportación a la renovación del teatro español de posguerra.",
-          "rubrica": "Desarrollo teórico (simbolismo, intención trágica, efectos de inmersión): 2 puntos. Imprescindibles: Buero Vallejo (Historia de una escalera, La Fundación), Alfonso Sastre.",
-          "tip": "Explica cómo Buero utiliza a los personajes ciegos o encerrados como símbolos de la falta de libertad."
+          "rubrica": "Desarrollo teórico (simbolismo, intención trágica): 2 puntos. Imprescindibles: Buero Vallejo, Alfonso Sastre.",
+          "tip": "Explica cómo Buero utiliza a los personajes ciegos como símbolos de la falta de libertad."
         },
         {
           "id": "CAS-LIT-10",
           "titulo": "El Boom de la narrativa hispanoamericana",
           "enunciado": "Explique las características del realismo mágico y mencione a los autores principales del Boom.",
-          "rubrica": "Rasgos técnicos (ruptura temporal, perspectivismo, mitificación): 2 puntos. Imprescindibles: García Márquez, Vargas Llosa, Cortázar, Borges.",
-          "tip": "Define el realismo mágico como la integración de lo maravilloso en lo cotidiano sin que cause sorpresa."
+          "rubrica": "Rasgos técnicos (ruptura temporal, mitificación): 2 puntos. Imprescindibles: García Márquez, Vargas Llosa, Cortázar, Borges.",
+          "tip": "Define el realismo mágico como la integración de lo maravilloso en lo cotidiano."
         },
         {
           "id": "CAS-LIT-11",
           "titulo": "Narrativa desde 1975: Almudena Grandes",
-          "enunciado": "Identifique las características presentes en este fragmento de Almudena Grandes y desarrolle las tendencias actuales de la narrativa.\n\n\"El último domingo de marzo de 1947 fui al encuentro de una mujer que conocía mi verdadera identidad... Mi historia es la historia de tres impostores.\"",
-          "rubrica": "Análisis (memoria histórica, verosimilitud): 1 punto. Teoría (novela negra, histórica, actual): 1 punto. Imprescindibles: Almudena Grandes, Muñoz Molina, Eduardo Mendoza, Rosa Montero.",
-          "tip": "Destaca la serie 'Episodios de una guerra interminable' como una actualización de los Episodios Nacionales de Galdós
+          "enunciado": "Identifique las características presentes en este fragmento de Almudena Grandes y desarrolle las tendencias actuales de la narrativa.\n\n\"El último domingo de marzo de 1947 fui al encuentro de una mujer que conocía mi verdadera identidad...\"",
+          "rubrica": "Análisis: 1 punto. Teoría: 1 punto. Imprescindibles: Almudena Grandes, Muñoz Molina, Eduardo Mendoza, Rosa Montero.",
+          "tip": "Destaca la serie \"Episodios de una guerra interminable\" como una actualización de Galdós."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Ortografía: -0,15 por cada tilde incorrecta/ausente.",
+    "Ortografía: -0,25 por cada falta ortográfica o error léxico.",
+    "Presentación: Penalización por falta de orden o caligrafía (hasta -0,5).",
+    "Extensión: El resumen debe ajustarse a las 6-10 líneas."
+  ]
+}
