@@ -5,7 +5,7 @@ st.set_page_config(page_title="Corrector CiUG 2026", layout="wide")
 
 # Selector de Asignatura en el Sidebar
 st.sidebar.title("🎒 Mi Mochila ABAU")
-asignatura_file = st.sidebar.selectbox("¿Qué asignatura vas a estudiar?", ["Matematicas.json", "Lengua.json"])
+asignatura_file = st.sidebar.selectbox("¿Qué asignatura vas a estudiar?", ["matematicas.json", "Lengua.json"])
 
 # Función de carga dinámica
 def load_data(filename):
