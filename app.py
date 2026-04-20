@@ -18,7 +18,7 @@ def load_data(filename):
 
 # Sidebar: Selección de materia
 st.sidebar.title("🎒 Mi Mochila ABAU")
-asignatura_file = st.sidebar.selectbox("¿Qué vas a estudiar hoy?", ["Matematicas.json", "Lengua.json", "Filosofia.json", "Galego.json", "Biologia.json", "Quimica.json", "ingles.json"])
+asignatura_file = st.sidebar.selectbox("¿Qué vas a estudiar hoy?", ["matematicas.json", "Lengua.json", "Filosofia.json", "Galego.json", "Biologia.json", "Quimica.json", "ingles.json"])
 
 try:
     data = load_data(asignatura_file)
