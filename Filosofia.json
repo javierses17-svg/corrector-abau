@@ -1,0 +1,87 @@
+{
+  "asignaturas": {
+    "Historia de la Filosofía": {
+      "Resumen Estratégico de la Antología": [
+        {
+          "id": "FIL-RES-01",
+          "titulo": "Claves de los Autores Contemporáneos",
+          "enunciado": "RESUMEN DE LA ANTOLOGÍA:\n\n- **Marx:** La alienación como pérdida del ser en el trabajo forzado y la tesis del materialismo histórico: la base material de la vida determina la conciencia ideológica.\n- **Nietzsche:** La crítica al nihilismo y a los 'transmundos' inventados por necesidad psicológica; el Eterno Retorno como la máxima prueba de afirmación vital.\n- **Ortega y Gasset / Zambrano:** La necesidad de supeditar la razón a la vitalidad espontánea (Ortega) y la razón poética como una revelación 'graciosa' frente al dominio racionalista (Zambrano).\n- **Arendt:** La igualdad no como dato natural sino como resultado artificial de la organización política; el totalitarismo como destrucción de la iniciativa y la pluralidad.\n- **Beauvoir:** La mujer definida como la 'Alteridad' inesencial frente al sujeto masculino; la célebre tesis de que la identidad femenina es un producto cultural, no biológico.",
+          "rubrica": "Uso informativo. No evaluable directamente.",
+          "tip": "Lee este resumen antes de empezar los ejercicios para tener el mapa mental del bloque."
+        }
+      ],
+      "Marx": [
+        {
+          "id": "FIL-MARX-01",
+          "titulo": "Marx - El trabajo enajenado",
+          "enunciado": "Lea el siguiente texto y elabore un comentario filosófico (Contexto, Tema, Ideas y Conceptos).\n\n«¿En qué consiste, entonces, la enajenación del trabajo? Primeramente, en que el trabajo es externo al trabajador, es decir, no pertenece a su ser; en que, en su trabajo, el trabajador no se afirma, sino que se niega; no se siente feliz, sino desgraciado; no desarrolla una libre energía física y espiritual, sino que mortifica su cuerpo y arruina su espíritu. Por eso el trabajador sólo se siente en sí fuera del trabajo, y en el trabajo fuera de sí. Está en lo suyo cuando no trabaja y cuando trabaja no está en lo suyo. Su trabajo no es, así, voluntario, sino forzado, trabajo forzado. Por eso no es la satisfacción de una necesidad, sino solamente un medio para satisfacer las necesidades fuera del trabajo. Su carácter extraño se evidencia claramente en el hecho de que tan pronto como no existe una coacción física o de cualquier otro tipo se huye del trabajo como de la peste.»",
+          "rubrica": "Contextualización (0.5): Marco de la Revolución Industrial y crítica a la economía política clásica. Tema (0.25): La deshumanización del trabajador en el sistema de producción capitalista. Ideas (1.0): Trabajo como actividad externa, negación del ser, trabajo como medio y no como fin. Conceptos (1.5): Enajenación, Trabajo forzado, Esencia humana, Coacción. Crítica (0.5): Vigencia de la precariedad laboral actual. Penalización: -0.15 tildes, -0.25 faltas (normativa gallega).",
+          "tip": "Usa la palabra 'Praxis'. Explica que, para Marx, el trabajo debería ser la realización del hombre, pero bajo el capital se convierte en su pérdida."
+        },
+        {
+          "id": "FIL-MARX-02",
+          "titulo": "Alienación e ideoloxía en Marx",
+          "enunciado": "Explique el problema fundamental en la cuestión: «Alienación e ideoloxía en Marx».",
+          "rubrica": "Densidad (1.0): Identificación del materialismo histórico: la vida determina la conciencia. Conceptos (1.0): Infraestructura, Superestructura, Falsa conciencia, Lucha de clases. Cohesión (1.0): Relación entre la base económica y las producciones mentales (ley, religión, moral).",
+          "tip": "La 'frase de oro' es: 'La conciencia es un producto social'. Evita decir que la ideología es solo 'mentir'; es una visión distorsionada necesaria para mantener el dominio de clase."
+        },
+        {
+          "id": "FIL-MARX-03",
+          "titulo": "Conceptos Fundamentales",
+          "enunciado": "4.1. Discrimine en dos columnas los siguientes términos: Plusvalía / Superestructura / Fuerzas productivas / Ideología / Medios de producción / Religión.\n\n4.2. Defina: Materialismo Histórico.",
+          "rubrica": "Columnas (0.5) solo si están todos correctos. Definición (0.5) en máximo 3 líneas.",
+          "tip": "En las columnas, asocia 'Superestructura' con la religión e ideología, y 'Medios de producción' con la infraestructura material."
+        }
+      ],
+      "Nietzsche": [
+        {
+          "id": "FIL-NIET-01",
+          "titulo": "Nietzsche - El eterno retorno",
+          "enunciado": "Lea el siguiente fragmento de La ciencia jovial y realice el comentario oficial.\n\n«341. El peso más pesado.— Qué pasaría si un día o una noche se introdujera a hurtadillas un demonio en tu más solitaria soledad para decirte: “Esta vida, tal como la vives ahora y la has vivido, tendrás que vivirla no sólo una, sino innumerables veces más; y sin que nada nuevo acontezca... Al eterno reloj de arena de la existencia se le dará la vuelta una y otra vez –¡y tú con él, minúsculo polvo en el polvo!”. (...) ¿O acaso ya has vivido alguna vez un instante tan terrible en el que le responderías: “¡Tú eres un Dios y jamás he escuchado nada más divino!”?»",
+          "rubrica": "Tema (0.25): El eterno retorno como herramienta de selección ética y afirmación de la vida. Conceptos (1.5): Eterno retorno, Nihilismo, Voluntad de poder, Superhombre, Amor fati.",
+          "tip": "No lo expliques como una teoría física del tiempo. Es un 'experimento mental' para medir la fuerza de tu salud trágica. Usa el término 'Amor Fati'."
+        },
+        {
+          "id": "FIL-NIET-02",
+          "titulo": "Nietzsche: Nihilismo, vitalismo e transvaloración",
+          "enunciado": "Explique el problema fundamental en la cuestión: «Nietzsche: nihilismo, vitalismo e transvaloración».",
+          "rubrica": "Identificación del nihilismo pasivo frente al activo. Crítica a la moral de esclavos y la propuesta del Superhombre como creador de valores.",
+          "tip": "Palabra mágica: 'Dionisíaco'. Contrapón la vida como embriaguez y creación frente al orden estático 'Apolíneo' de la metafísica tradicional."
+        }
+      ],
+      "Arendt": [
+        {
+          "id": "FIL-ARE-01",
+          "titulo": "Arendt - La construcción de la igualdad",
+          "enunciado": "Realice el comentario filosófico del siguiente fragmento de Los orígenes del totalitarismo.\n\n«La igualdad, en contraste con todo lo que está implicado en la simple existencia, no nos es otorgada, sino que es el resultado de la organización humana, en tanto que resulta guiada por el principio de la justicia. No nacemos iguales, llegamos a ser iguales como miembros de un grupo por la fuerza de nuestra decisión de concedernos mutuamente derechos iguales. Nuestra vida política descansa en la presunción de que podemos producir la igualdad a través de la organización...»",
+          "rubrica": "Ideas (1.0): Diferencia entre existencia (desigualdad natural) y política (igualdad artificial); la justicia como guía de la organización. Conceptos (1.5): Esfera pública, Derechos, Organización humana, Justicia, Pluralidad.",
+          "tip": "Enfatiza la 'Artificialidad de la política'. Para Arendt, la igualdad no es un hecho natural, sino un 'compromiso activo' entre ciudadanos."
+        }
+      ],
+      "Beauvoir": [
+        {
+          "id": "FIL-BEAU-01",
+          "titulo": "Beauvoir - El devenir mujer",
+          "enunciado": "Comente el siguiente fragmento:\n\n«No se nace mujer: se llega a serlo. Ningún destino biológico, psíquico, económico, define la imagen que reviste en el seno de la sociedad la hembra humana; el conjunto de la civilización elabora este producto intermedio entre el macho y el castrado que se suele calificar de femenino. Sólo la mediación ajena puede convertir un individuo en Alteridad.»",
+          "rubrica": "Tema (0.25): La construcción cultural del género y la crítica al determinismo biológico. Conceptos (1.5): Alteridad, Inmanencia, Trascendencia, Sujeto autónomo, Género.",
+          "tip": "Usa el concepto de 'Situación'. La libertad de la mujer no es abstracta, sino que está condicionada por las estructuras que la definen como 'lo Otro'."
+        }
+      ],
+      "Zambrano / Ortega": [
+        {
+          "id": "FIL-ZAM-01",
+          "titulo": "Da 'razón vital' á 'razón poética'",
+          "enunciado": "Explique el problema: «Da “razón vital” (Ortega y Gasset) á “razón poética” (María Zambrano)».",
+          "rubrica": "Densidad (1.0): Superación del racionalismo abstracto. Razón vital como razón que acepta la vida; razón poética como revelación de lo que la lógica ignora. Conceptos (1.0): Vitalidad, Revelación graciosa, Saber de dominio vs. Saber de acogida.",
+          "tip": "Describe la razón poética como un 'descenso a las entrañas'. Es una razón que no quiere conquistar la realidad, sino dejar que la realidad se manifieste."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Ortografía: -0,15 por cada tilde incorrecta/ausente.",
+    "Ortografía: -0,25 por cada falta ortográfica o error léxico.",
+    "Rigor Terminológico: Obligación de usar conceptos específicos del autor.",
+    "Comentario: El texto no es un 'pretexto'; debe haber un diálogo real con el fragmento."
+  ]
+}

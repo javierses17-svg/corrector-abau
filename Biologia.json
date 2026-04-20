@@ -1,0 +1,76 @@
+{
+  "asignaturas": {
+    "Bioloxía": {
+      "Bloque 1: Comprensión Textual (Pregunta 1)": [
+        {
+          "id": "BIO-BLOQUE1-01",
+          "titulo": "CRISPR-Cas9 y Medicina Personalizada",
+          "enunciado": "TEXTO: «O sistema CRISPR-Cas9, derivado dun mecanismo de defensa bacteriano contra virus, permite editar o xenoma cunha precisión sen precedentes. Este sistema utiliza un ARN guía para dirixir a enzima Cas9 cara a unha secuencia específica de ADN...»\n\n1.1. Indique a función biolóxica orixinal do sistema CRISPR nas bacterias e cite unha aplicación médica mencionada no texto. (0.6 p.)\n1.2. Explique que molécula actúa como 'molde' ou 'guía' neste sistema e a que tipo de biomolécula pertence segundo a súa composición química. (0.5 p.)\n1.3. Se o corte de Cas9 se produce nun exón dun xen eucariota, explique brevemente como afectaría isto ao proceso de maduración do ARNm e á proteína final. (0.7 p.)\n1.4. Defina o concepto de mutación e razone se a edición mediante CRISPR se consideraría unha mutación dirixida. (0.7 p.)",
+          "rubrica": "1.1: 0.3 defensa antivirus / 0.3 terapia xénica ou tumores. 1.2: 0.25 ARN guía / 0.25 Ácido nucleico. 1.3: 0.35 alteración do splicing / 0.35 cambio na secuencia de aminoácidos ou proteína non funcional. 1.4: 0.35 definición cambio material xenético / 0.35 xustificación técnica.",
+          "tip": "Non esquezas mencionar que o ARN guía é complementario á secuencia de ADN diana para asegurar a especificidade."
+        },
+        {
+          "id": "BIO-BLOQUE1-03",
+          "titulo": "Plataformas de Vacunación y Zoonosis",
+          "enunciado": "TEXTO: «Tras o éxito das vacinas de ARNm, estanse a desenvolver plataformas que combinan proteínas recombinantes con nanopartículas lipídicas... A diferenza dos soros, as vacinas activan a memoria inmunolóxica...»\n\n1.1. A partir do texto, diferencie entre o mecanismo de acción dunha vacina e o dun soro. (0.6 p.)\n1.2. Explique que son as nanopartículas lipídicas e por que son necesarias para protexer o ARNm. (0.6 p.)\n1.3. Defina os termos antíxeno e epítopo. (0.6 p.)\n1.4. Indique que tipos celulares son os responsables da produción de anticorpos e da memoria inmunolóxica. (0.7 p.)",
+          "rubrica": "1.1: 0.3 vacina (activa/duradeira) / 0.3 soro (pasiva/temporal). 1.2: 0.3 lípidos/bicapa / 0.3 protección contra nucleases. 1.3: 0.3 sustancia estraña / 0.3 centro activo do antíxeno. 1.4: 0.35 Células plasmáticas (B) / 0.35 Linfocitos de memoria.",
+          "tip": "É fundamental diferenciar entre inmunidade activa (vacinas) e pasiva (soros)."
+        }
+      ],
+      "Bloque 2: Bioelementos e Metabolismo": [
+        {
+          "id": "BIO-MET-01",
+          "titulo": "Bioelementos y Enzimas",
+          "enunciado": "2.1. Defina o concepto de bioelemento primario e indique dous exemplos, sinalando unha función biolóxica para cada un. (1.0 p.)\n\n2.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura que amosa unha curva de saturación dunha enzima (Eixe Y: velocidade; Eixe X: [S]). Hai dúas curvas: A (normal) e B (con inhibidor). Identifique: A) Que representan a Vmáx/2 e os valores de Km. B) Cal das dúas situacións presenta maior afinidade.\nOPCIÓN B: Explique a estrutura química da molécula de auga e cite tres funcións derivadas do seu carácter dipolar.",
+          "rubrica": "2.1: 0.5 def. / 0.5 exemplos (C, H, O, N, P, S). 2.2-A: 0.75 identif. parámetros / 0.75 razonamiento Km (A é maior afinidade). 2.2-B: 0.75 estructura (enlace covalente/ponte hidróxeno) / 0.75 funcións (termoreguladora, disolvente, etc.).",
+          "tip": "Para a afinidad enzimática, lembra: 'A menor valor de Km, maior é a afinidade'."
+        },
+        {
+          "id": "BIO-MET-03",
+          "titulo": "Vitaminas y Respiración Celular",
+          "enunciado": "2.1. Cite os dous tipos de vitaminas segundo a súa solubilidade e poña un exemplo de cada unha coa súa carencia. (1.0 p.)\n\n2.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Esquema dunha mitocondria amosando o balance global. A) Nombre os procesos (Glicólise, Ciclo de Krebs, Cadea electrónica). B) Identifique en que parte ocorre o Ciclo de Krebs.\nOPCIÓN B: Diferenzas fundamentais entre o catabolismo aeróbico e a fermentación (rendemento e aceptor final).",
+          "rubrica": "2.1: 0.5 Hidro/Lipo / 0.5 exemplos (C, Escorbuto, etc.). 2.2-A: 0.75 identificación / 0.75 localización (matriz). 2.2-B: 0.75 ATP producido / 0.75 O2 vs molécula orgánica.",
+          "tip": "Nas fermentacións, recalca que o aceptor final é unha 'molécula orgánica'."
+        }
+      ],
+      "Bloque 3: A Célula e Xenética": [
+        {
+          "id": "BIO-CEL-01",
+          "titulo": "Teoría Celular y Meiosis",
+          "enunciado": "3.1. Formule os tres postulados fundamentais da Teoría Celular. (1.0 p.)\n\n3.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura da meiose (etapa 3: Intercambio de fragmentos entre cromátidas). A) Identifique o proceso (sobrecruzamento) e a súa importancia. B) Indique se as células finais son haploides ou diploides.\nOPCIÓN B: Describa a estrutura e función do nucléolo e que pasaría coa síntese proteica se fose destruído.",
+          "rubrica": "3.1: 0.33 por postulado (unidad estructural, funcional, origen). 3.2-A: 0.75 sobrecruzamento e variabilidade / 0.75 haploides. 3.2-B: 0.75 def. e función (ARNr) / 0.75 sen ribosomas non hai proteínas.",
+          "tip": "Usa o termo 'variabilidade xenética' ao falar da recombinación na profase I."
+        },
+        {
+          "id": "BIO-CEL-03",
+          "titulo": "Dogma Central y Código Genético",
+          "enunciado": "3.1. Defina o concepto de xen e diferencie entre exón e intrón. (1.0 p.)\n\n3.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura do Dogma Central (Doble hélice -> ARN -> Esferas). A) Identifique moléculas (ADN, ARN, Proteína). B) Nomee os procesos (Replicación, Transcrición, Tradución).\nOPCIÓN B: Explique as características do código xenético: universalidade, dexeneración e ausencia de solapamento.",
+          "rubrica": "3.1: 0.5 def. xen / 0.5 exón (codifica) vs intrón. 3.2-A: 0.75 identif. moléculas / 0.75 identif. procesos. 3.2-B: 0.5 cada característica explicada.",
+          "tip": "'Dexenerado' significa que varios codóns codifican o mesmo aminoácido."
+        }
+      ],
+      "Bloque 4: Microbioloxía e Inmunoloxía": [
+        {
+          "id": "BIO-MIC-02",
+          "titulo": "Patologías e Inmunoglobulinas",
+          "enunciado": "4.1. Defina os conceptos de enfermidade autoinmune e inmunodeficiencia, aportando un exemplo. (1.0 p.)\n\n4.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura dunha inmunoglobulina en 'Y'. A) Identifique cadeas pesadas e lixeiras. B) Indique onde se sitúa o parátopo e a súa función. C) Que células as producen?\nOPCIÓN B: Diferenzas entre a resposta inmunitaria primaria e a secundaria (concentración de anticorpos e memoria).",
+          "rubrica": "4.1: 0.5 autoinmune / 0.5 inmunodeficiencia. 4.2-A: 0.5 cadeas / 0.5 parátopo (unión antíxeno) / 0.5 Plasmáticas. 4.2-B: 0.75 rapidez e intensidade / 0.75 papel linfocitos B memoria.",
+          "tip": "Na resposta secundaria, a produción de anticorpos é 'máis rápida, intensa e duradeira'."
+        },
+        {
+          "id": "BIO-MIC-03",
+          "titulo": "Ciclos Virales y PCR",
+          "enunciado": "4.1. Cite os tipos de microorganismos segundo a súa organización e poña un exemplo. (1.0 p.)\n\n4.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura de ciclos virais (Ciclo 1: lise; Ciclo 2: integración). A) Identifique os ciclos. B) Explique a diferenza fundamental. C) Que é un retrovirus?\nOPCIÓN B: Describa a técnica da PCR, indicando fases e por que se usa a Taq polimerase.",
+          "rubrica": "4.1: 0.33 por tipo (acelular, proca, euca). 4.2-A: 0.5 lítico/lisoxénico / 0.5 morte vs latencia / 0.5 ARN/transcriptase. 4.2-B: 0.75 fases (desnat, hibrid, elong) / 0.75 termoresistencia.",
+          "tip": "O termo 'profago' é clave para o ciclo lisoxénico."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Estrutura: 4 preguntas obrigatorias de 2.5 puntos.",
+    "Rigor: O uso de terminoloxía específica (enlaces, orgánulos, rutas) é imprescindible.",
+    "Dibujos: Identificación precisa de estruturas en esquemas (Preguntas 2, 3 e 4).",
+    "Ortografía: -0,15 por tilde, -0,25 por falta (normativa CiUG)."
+  ]
+}

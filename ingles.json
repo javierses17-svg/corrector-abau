@@ -1,0 +1,59 @@
+{
+  "asignaturas": {
+    "Inglés": {
+      "Model 1: Technology & Mental Health": [
+        {
+          "id": "ENG-TEXT-01",
+          "titulo": "Reading & Vocabulary: The Digital Dilemma",
+          "enunciado": "TEXT: 'Teenagers today are the first generation to grow up with a smartphone in their hands... [Full text about FOMO and addictive algorithms]'.\n\n1.1. True/False (Justify with literal evidence): \na) Modern technology has fundamentally changed how young people interact with society.\nb) The design of social media apps is intentionally created to be addictive.\nc) Sleeping habits are generally unaffected by the use of digital devices.\n\n1.2. Answer with your own words:\na) Why does social media negatively impact how teenagers view themselves?\nb) What are the potential benefits of the smartphone bans mentioned?\n\n2.1. Find words for: Never happened before / Link / Noticeable / Extremely important.\n2.2. Synonyms/Antonyms: Increase (S) / Intentional (S) / Improve (A) / Superficial (A).",
+          "rubrica": "1.1: 0.5 per item (0.25 T/F + 0.25 justification). 1.2: 0.75 per answer (Grammar & Content). 2.1: 0.25 per word. 2.2: 0.25 per word.",
+          "tip": "In T/F questions, copy ONLY the relevant part of the sentence. Do not include extra information or the mark will be 0."
+        },
+        {
+          "id": "ENG-USE-01",
+          "titulo": "Question 3: Use of English (Cloze Test)",
+          "enunciado": "Fill in the 20 gaps (1-20) with the correct option (a, b, c, or d):\n\n'The rapid rise of artificial intelligence 1.____ transformed many industries... [180-word text about AI threats and education]'.\n\nOptions: \n1. a) has b) have c) is d) was | 2. a) think b) thought c) thinking d) thinks | 3. a) an b) a c) the d) — | 4. a) While b) Despite c) Because d) Since | 5. a) pose b) poses c) posing d) posed | 6. a) of b) for c) to d) at | 7. a) become b) becomes c) becoming d) became | 8. a) which b) what c) who d) where | 9. a) need b) must c) should d) ought | 10. a) how b) what c) why d) when | 11. a) instead b) unless c) except d) despite | 12. a) Furthermore b) However c) Although d) But | 13. a) concern b) concerned c) concerning d) concerns | 14. a) who b) which c) whose d) where | 15. a) be b) being c) been d) is | 16. a) If b) Unless c) Whether d) Until | 17. a) never b) not c) ever d) no | 18. a) worth b) value c) price d) cost | 19. a) are b) is c) was d) were | 20. a) towards b) against c) into d) for",
+          "rubrica": "0.125 points per correct gap. Total: 2.5 points.",
+          "tip": "Look at the words before and after the gap. Prepositions often depend on the verb (e.g., 'afraid OF', 'invest IN')."
+        },
+        {
+          "id": "ENG-WRIT-01",
+          "titulo": "Question 4: Writing (120-140 words)",
+          "enunciado": "Choose ONE of the following options:\n\nOption A: Opinion Essay. Is social media making us feel more lonely despite being more connected?\n\nOption B: Blog Entry. Write a post giving your classmates tips on how to perform a 'digital detox' weekend.",
+          "rubrica": "Total: 3 pts. Maturity (0.75), Vocabulary (0.75), Grammar (0.75), Cohesion (0.75). Penalty: 0 points if off-topic.",
+          "tip": "Use high-level connectors like 'Furthermore', 'Moreover' or 'In addition' to link your ideas."
+        }
+      ],
+      "Model 3: Overtourism in Galicia": [
+        {
+          "id": "ENG-TEXT-03",
+          "titulo": "Reading & Vocabulary: Sustainable Tourism",
+          "enunciado": "TEXT: 'Galicia has experienced a tourism boom... [Text about Santiago housing and Cíes Islands limits]'.\n\n1.1. True/False (Justify with literal evidence): \na) The increase in tourism has had no positive effects on rural areas.\nb) Locals in Santiago are worried because life is becoming more expensive.\nc) The Cíes Islands have always had a limit on the number of daily visitors.\n\n1.2. Answer with your own words:\na) What are the negative effects of the increase in tourist apartments?\nb) How do experts suggest solving the problem of tourist concentration?\n\n2.1. Find words in text for: Absolute / Put pressure / Busiest period / Hospitality.\n2.2. Synonyms/Antonyms: Decrease (A) / Expressed (S) / Unspoiled (S) / Stability (A).",
+          "rubrica": "Standard CiUG Rubric (Reading 3 pts / Vocab 2 pts).",
+          "tip": "Avoid 'True because...' Just write 'TRUE' and the quote between inverted commas."
+        },
+        {
+          "id": "ENG-USE-03",
+          "titulo": "Question 3: Use of English (Overtourism)",
+          "enunciado": "Fill in the 20 gaps with the correct option:\n\n'Traveling is undoubtedly one of 1.____ most rewarding... [180-word text about identity and responsible travel]'.\n\nOptions: \n1. a) the b) a c) an d) — | 2. a) However b) Although c) Despite d) Therefore | 3. a) impact b) result c) cause d) reason | 4. a) has b) have c) is d) was | 5. a) many b) much c) any d) every | 6. a) are b) is c) have d) were | 7. a) their b) them c) they d) theirs | 8. a) identity b) identify c) identical d) identification | 9. a) be b) being c) been d) is | 10. a) stay b) stays c) staying d) stayed | 11. a) avoid b) avoids c) avoiding d) avoided | 12. a) too b) very c) so d) enough | 13. a) Instead b) Unless c) Except d) Although | 14. a) which b) who c) whose d) where | 15. a) When b) Since c) Because d) Until | 16. a) minimize b) minimized c) minimizing d) minimizes | 17. a) It b) There c) This d) That | 18. a) guests b) hosts c) owners d) neighbors | 19. a) following b) follow c) follows d) followed | 20. a) ensure b) sure c) surely d) insurance",
+          "rubrica": "2.5 points total.",
+          "tip": "Relative pronouns (who/which/whose) are very common in this section. Review their use!"
+        },
+        {
+          "id": "ENG-WRIT-03",
+          "titulo": "Question 4: Writing (120-140 words)",
+          "enunciado": "Choose ONE of the following options:\n\nOption A: Opinion Essay. Should the government limit the number of tourists in Galicia?\n\nOption B: Article. Write an article for a travel magazine: 'How to be a sustainable pilgrim.'",
+          "rubrica": "Standard CiUG Rubric (3 points).",
+          "tip": "Remember: Opinion essays need a clear introduction, body paragraphs, and a concluding summary."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Reading (Q1): Literal justification is mandatory for T/F. Own words for comprehension.",
+    "Vocabulary (Q2): Words must be extracted exactly as they appear in the text.",
+    "Use of English (Q3): 20 items x 0.125 = 2.5 points. No partial marks.",
+    "Writing (Q4): Strict 120-140 word limit. Register must match the format (formal/informal).",
+    "Spelling: Accuracy is key. Frequent mistakes will significantly reduce the Grammar mark."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "asignaturas": {
+    "Lingua Galega e Literatura II": {
+      "Bloque 1: Comprensión e produción lectora": [
+        {
+          "id": "GLG-COM-01",
+          "titulo": "O impacto da IA na creatividade",
+          "enunciado": "Lea o texto e responda:\n\n\"A irrupción da intelixencia artificial xenerativa nos ámbitos educativos non é só unha cuestión de ferramentas, senón un cambio de paradigma. O 70% dos adolescentes galegos recoñecen usar modelos de linguaxe para as súas tarefas, pero o risco non reside no uso, senón na delegación absoluta da capacidade crítica. Antonio Rial advirte que a falta de supervisión pode derivar nunha atrofia do pensamento propio. A creatividade debe ser un reflexo da identidade e do contexto social do individuo.\"\n\n1. Resuma o texto (aprox. 60 palabras) (1,25 pts).\n2. Indique un título e a idea principal (0,5 pts).\n3. Identifique a tipoloxía textual e xustifíquea con dous exemplos (1 pt).\n4. Explique o significado de 'irrupción' e 'atrofia' e propoña un sinónimo para cada unha (1,25 pts).",
+          "rubrica": "Contido (3,2 pts) + Competencia comunicativa (0,8 pts). Valorarase a capacidade de síntese e a non literalidade no resumo. Na tipoloxía, debe citar elementos como a modalidade enunciativa ou conectores. Penalización: -0,10 por tilde, -0,20 por falta grave.",
+          "tip": "Evita o castelanismo 'creatividad' (usa creatividade). Lembra que os substantivos en -dade son femininos (a soidade, a creatividade)."
+        },
+        {
+          "id": "GLG-COM-03",
+          "titulo": "O sorpasso turístico en Santiago",
+          "enunciado": "Lea o texto e responda:\n\n\"Santiago de Compostela enfróntase a un dilema existencial. A masificación turística comeza a amosar as fendas dun modelo insostible. O casco histórico, baleirado de residentes, estase a converter nun escenario para o consumo rápido onde as tendas de recordos desprazan aos comercios de proximidade. A turistificación encarece o alugueiro e dilúe a identidade. O reto de 2026 será regular o fluxo para que a Catedral siga sendo un referente espiritual e non só o fondo dun selfie fugaz.\"\n\n1. Resuma o texto (60-90 palabras) (1,25 pts).\n2. Indique o título e a idea principal (0,5 pts).\n3. Identifique a tipoloxía textual e xustifíquea con tres exemplos (1 pt).\n4. Léxico: Significado de 'fendas' e 'claudicación' no contexto e sinónimos (1,25 pts).",
+          "rubrica": "Contido (3,2 pts) + Competencia comunicativa (0,8 pts). Na pregunta de léxico, a definición debe adaptarse ao uso que fai o autor, non ser unha definición xenérica de dicionario.",
+          "tip": "Usa conectores como 'porén' ou 'así e todo' en lugar de 'pero' para elevar o teu rexistro escrito."
+        },
+        {
+          "id": "GLG-COM-04",
+          "titulo": "O comercio local fronte ao algoritmo",
+          "enunciado": "Lea o texto e responda:\n\n\"A persiana que baixa nunha vila galega non é só un negocio que pecha; é un espazo de socialización que se apaga. O avance do comercio electrónico impón unha lóxica de inmediatez que o pequeno comerciante non pode replicar. Defender a tenda da esquina é un acto de soberanía económica. Sen o comercio local, as nosas rúas convértense en corredores desertos.\"\n\n1. Resumo (1,25 pts). 2. Título e idea principal (0,5 pts). 3. Tipoloxía (1 pt). 4. Léxico: 'imparable' e 'soberanía' (1,25 pts).",
+          "rubrica": "Contido (3,2 pts) + Competencia comunicativa (0,8 pts). Penalización rigorosa de castelanismos léxicos (tienda, rúa, negocio).",
+          "tip": "En galego, non uses o verbo 'haber' para tempos compostos (non digas 'he decidido', di 'decidín' ou 'teño decidido')."
+        }
+      ],
+      "Bloque 2: Lingua e sociedade / Reflexión": [
+        {
+          "id": "GLG-SOC-01",
+          "titulo": "O Estatuto de 1981 e a oficialidade",
+          "enunciado": "1. Explique o cambio de status que supuxo o Artigo 5 do Estatuto de Autonomía de 1981 para a lingua galega (1,5 pts).\n2. Analice sintacticamente: \"A lingua propia de Galicia é o galego\" (1,5 pts).",
+          "rubrica": "Contido (2,4 pts) + Competencia comunicativa (0,6 pts). Na sociolingüística, debe citar o paso de lingua 'tolerada' a lingua 'oficial'. Na sintaxis, identificar correctamente o Atributo.",
+          "tip": "Fíxate en que 'Galicia' escríbase con -c e non con -z. Lembra poñer o punto final sempre nas análises sintácticas."
+        },
+        {
+          "id": "GLG-SOC-04",
+          "titulo": "Diglosia e bilingüismo",
+          "enunciado": "1. Explica a diferenza entre bilingüismo e diglosia aplicada á situación actual en Galicia (1,5 pts).\n2. Substitúe os pronomes clíticos: \"Deulle o libro a ela\" / \"Contounos a historia a nós\" (1,5 pts).",
+          "rubrica": "Contido (2,4 pts) + Competencia comunicativa (0,6 pts). Valorarase o uso de terminoloxía técnica (conflito lingüístico, substitución).",
+          "tip": "A diglosia é un concepto social (desequilibrio), o bilingüismo é individual (coñecer dúas linguas). Non os confundas."
+        }
+      ],
+      "Bloque 3: Educación literaria": [
+        {
+          "id": "GLG-LIT-01",
+          "titulo": "A prosa de Castelao e a Época Nós",
+          "enunciado": "TEXTO: \"Cando se proclamou a República lanceime á política e saín deputado... Miroume, fite a fite, cos ollos mergullados en bágoas, e ó pasar a carón dela sioume con voz estremecida estas verbas: —¡Meu bailador!\"\n\n1. Contextualice este fragmento de Retrincos na narrativa da Época Nós (1916-1936).\n2. Analice a técnica do 'retrato' en Castelao a través deste fragmento.",
+          "rubrica": "Contido (2,4 pts) + Competencia comunicativa (0,6 pts). Extensión recomendada: 200 palabras. Debe mencionar as Irmandades da Fala e o Grupo Nós.",
+          "tip": "Usa conectores como 'En primeiro lugar' ou 'Para concluír' para estruturar o teu comentario literario."
+        },
+        {
+          "id": "GLG-LIT-06",
+          "titulo": "Teatro de Posguerra: Castelao",
+          "enunciado": "TEXTO: \"A MORTE: Eu teño unha doenza eiquí. ¡Levo chumbo derretido no corazón! O BOTICARIO: ¡Que me di! A MORTE: Non se burle de min, señor... Eu namoreime dunha rapaza máis bonita que os ouros do Perú.\"\n\n1. Contextualice esta obra (Os vellos non deben de namorarse) no teatro de posguerra e a súa importancia como espectáculo integral (1,5 pts).\n2. Explique o uso do simbolismo e o expresionismo (personificación da Morte) (1,5 pts).",
+          "rubrica": "Contido (2,4 pts) + Competencia comunicativa (0,6 pts). Valorarase a mención á estrea en Bos Aires e ao uso de máscaras e cores.",
+          "tip": "Castelao concibía o teatro como unha 'obra de arte total': música, luz e escenografía son tan importantes como o texto."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Transversalidade: O 20% da nota de cada pregunta depende da calidade comunicativa.",
+    "Ortografía Galega: -0,10 por tilde ou falta leve; -0,20 por falta grave (b/v, h, g/j, gheada non marcada).",
+    "Castelanismos: Penalización severa por morfosintaxe castelá (perífrases con que, tempos compostos con haber).",
+    "Extensión: Respectar as 200 palabras nos temas de literatura para evitar penalizacións."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "asignaturas": {
+    "Química": {
+      "Bloque 1: Pregunta 1 (Competencial)": [
+        {
+          "id": "QUI-REAC-01",
+          "titulo": "Gestión de vertidos en la Ría de Vigo",
+          "enunciado": "Escenario: Rotura de un tanque de $HNO_{3}$ comercial (69% masa, $d=1,41 g/cm^{3}$). Se requiere neutralización con $Ca(OH)_{2}$ (85% pureza).\n\n1. **Diseño Experimental:** Describa el procedimiento y material (subrayándolo) para valorar 10 mL del ácido con $NaOH$ 0,5 M.\n2. **Cálculo Estequiométrico:** Determine el volumen de ácido comercial necesario para producir 5 kg de nitrato de calcio.\n3. **Seguridad:** Justifique si añadir el hidróxido sólido directamente al vertido masivo es seguro ante la alta exotermicidad.",
+          "rubrica": "2,5 puntos. 1) 0,75 pts: Material y técnica de valoración. 2) 1,0 pto: Estequiometría con pureza y densidad. 3) 0,75 pts: Razonamiento de capacidad calorífica. Penalización del 25% por unidades.",
+          "tip": "En la valoración, la bureta debe estar enrasada a cero y el indicador (fenolftaleína) debe cambiar de incoloro a rosa persistente."
+        },
+        {
+          "id": "QUI-DEST-01",
+          "titulo": "Acumuladores térmicos para vacunas",
+          "enunciado": "Escenario: Diseño de un dispositivo de calor basado en la disolución de $CaCl_{2}$ para elevar 2 L de agua de 20°C a 40°C.\n\n1. **Cálculo Termoquímico:** Calcule la masa de $CaCl_{2}$ necesaria. ($\\Delta H_{dis} = -82,8 kJ/mol$; $c_{p} = 4,18 J/g·°C$).\n2. **Procedimiento:** Describa la construcción de un calorímetro sencillo.\n3. **Análisis:** Identifique fuentes de error si la temperatura real es inferior a la teórica.",
+          "rubrica": "2,5 puntos. 1) 1,0 pto: Uso de $q = m·c·\\Delta T$ (m=2000g). 2) 0,75 pts: Material aislante. 3) 0,75 pts: Fugas térmicas. Unidades erróneas descuentan 25%.",
+          "tip": "¡Atención! Al usar $\\Delta G = \\Delta H - T\\Delta S$, convierte siempre la entropía a kJ para no sumar unidades distintas."
+        },
+        {
+          "id": "QUI-REAC-02",
+          "titulo": "Producción de Hidrógeno Verde",
+          "enunciado": "Escenario: Electrólisis en el puerto de A Coruña para obtener $H_{2}(g)$.\n\n1. **Electrólisis:** Calcule el tiempo para obtener 100 L de $H_{2}$ ($25^{\\circ}C$, 1 atm) con 10 A.\n2. **Estequiometría:** Masa de agua consumida con rendimiento del 85%.\n3. **Seguridad:** Reacción de combustión del hidrógeno y espontaneidad según $\\Delta G$.",
+          "rubrica": "2,5 puntos. 1) 1,0 pto: Faraday y Gases Ideales. 2) 0,75 pts: Rendimiento estequiométrico. 3) 0,75 pts: Criterio de Gibbs. Sin razonamiento = 0.",
+          "tip": "Para el hidrógeno, el número de electrones transferidos ($n$) es 2. No olvides la constante de Faraday ($96500 C/mol$)."
+        }
+      ],
+      "Bloque 3: Cinética y Termoquímica (Opcional)": [
+        {
+          "id": "QUI-CINE-01",
+          "titulo": "Teoría de Colisiones y Arrhenius",
+          "enunciado": "1. Defina **Energía de Activación** ($E_{a}$) y explique por qué no todos los choques son eficaces.\n2. Justifique cómo afecta el aumento de temperatura a la constante de velocidad ($k$) según la ecuación de Arrhenius.",
+          "rubrica": "2,5 puntos. 1) 1,25 pts: Orientación adecuada y energía mínima. 2) 1,25 pts: Relación exponencial de Arrhenius. Obligatorio razonar.",
+          "tip": "Al aumentar la $T$, aumenta la fracción de moléculas con energía suficiente para superar la barrera de la $E_{a}$."
+        },
+        {
+          "id": "QUI-CINE-02",
+          "titulo": "Diagramas de Energía y Catalizadores",
+          "enunciado": "Para $A + B \\rightarrow C + D$, una sustancia $X$ reduce la $E_{a}$ de 150 a 85 kJ/mol.\n1. Dibuje el diagrama de energía potencial indicando reactivos, productos, complejo activado y el efecto de $X$.\n2. ¿Altera $X$ la constante de equilibrio ($K_{c}$) o la espontaneidad ($\\Delta G$)?",
+          "rubrica": "2,5 puntos. 1) 1,5 pts: Dibujo correcto. 2) 1,0 pto: Explicación de que el catalizador solo afecta a la velocidad, no a la termodinámica.",
+          "tip": "Un catalizador abre un 'atajo' energético, pero el inicio y el final (reactivos y productos) permanecen en el mismo nivel."
+        },
+        {
+          "id": "QUI-TERM-01",
+          "titulo": "Ley de Hess y Formación",
+          "enunciado": "Calcule la entalpía de formación del eteno ($C_{2}H_{4}$) a partir de:\n- $\\Delta H_{c}(eteno) = -1411 kJ/mol$\n- $\\Delta H_{c}(C) = -393,5 kJ/mol$\n- $\\Delta H_{c}(H_{2}) = -285,8 kJ/mol$\nEscriba la ecuación termoquímica resultante.",
+          "rubrica": "2,5 puntos. 1,5 pts: Aplicación de la Ley de Hess (sumar/invertir reacciones). 1,0 pto: Resultado con unidades y signo correcto. Penalización 25% por unidades.",
+          "tip": "Asegúrate de ajustar la ecuación de formación: $2 C(s) + 2 H_{2}(g) \\rightarrow C_{2}H_{4}(g)$."
+        }
+      ],
+      "Bloque 3: Equilibrio, Ácido-Base y Redox": [
+        {
+          "id": "QUI-EQUI-02",
+          "titulo": "Equilibrio y Relación Kc/Kp",
+          "enunciado": "En recipiente de 5 L se introducen 0,5 moles de $SbCl_{5}$ a $200^{\\circ}C$. En el equilibrio $SbCl_{5}(g) \\rightleftharpoons SbCl_{3}(g) + Cl_{2}(g)$ hay 0,10 moles de $Cl_{2}$.\n1. Calcule $K_{c}$ y las concentraciones.\n2. Establezca la relación $K_{p} = K_{c}(RT)^{\\Delta n}$ y calcule su valor.",
+          "rubrica": "2,5 puntos. 1) 1,5 pts: Tabla de equilibrio y $K_{c}$. 2) 1,0 pto: Cálculo de $K_{p}$ con $T$ en Kelvin.",
+          "tip": "En este equilibrio $\\Delta n = (1+1) - 1 = 1$. Usa $R = 0,082 atm·L/mol·K$."
+        },
+        {
+          "id": "QUI-SOLUB-02",
+          "titulo": "Solubilidad e Ion Común",
+          "enunciado": "El $K_{ps}$ del $BaSO_{4}$ es $8,7·10^{-11}$.\n1. Calcule su solubilidad molar en agua pura.\n2. Calcule la solubilidad (g/L) en una disolución 1 M de $Na_{2}SO_{4}$ y justifique el efecto del ion común.",
+          "rubrica": "2,5 puntos. 1) 1,0 pto: $s = \\sqrt{K_{ps}}$. 2) 1,5 pts: Cálculo con ion común (considerar la $[SO_{4}^{2-}]$ inicial) y comparación.",
+          "tip": "El ion común 'empuja' el equilibrio hacia la izquierda, haciendo que la sal sea mucho menos soluble."
+        },
+        {
+          "id": "QUI-REDOX-01",
+          "titulo": "Ajuste e Ion-Electrón",
+          "enunciado": "**Opción A:** Ajuste $KMnO_{4} + FeSO_{4} + H_{2}SO_{4} \\rightarrow MnSO_{4} + Fe_{2}(SO_{4})_{3} + K_{2}SO_{4} + H_{2}O$.\n**Opción B:** Dada la pila $Cd|Cd^{2+}||Ag^{+}|Ag$, calcule $E^{\\circ}_{pila}$ y determine si el Cobre reacciona con $HCl$ 1 M.",
+          "rubrica": "2,5 puntos. A) 1,5 pts ajuste; 1,0 pto estequiometría. B) 1,5 pts pila; 1,0 pto razonamiento Cu/HCl.",
+          "tip": "Si el potencial de reducción del metal es mayor que el del hidrógeno (0V), el metal no reaccionará con el ácido."
+        }
+      ],
+      "Bloque 4: Química Orgánica (Opcional)": [
+        {
+          "id": "QUI-ORG-02",
+          "titulo": "Deshidratación y Regla de Saytzeff",
+          "enunciado": "El butan-2-ol se calienta con $H_{2}SO_{4}$ concentrado.\n1. Escriba la reacción, nombre los productos y justifique el mayoritario según Saytzeff.\n2. Explique si el producto mayoritario presenta isomería cis-trans y represéntela.",
+          "rubrica": "2,5 puntos. 1) 1,5 pts: Reacción y regla (alqueno más sustituido). 2) 1,0 pto: Isomería geométrica del but-2-eno.",
+          "tip": "Saytzeff dice: el hidrógeno sale del carbono vecino que tenga menos hidrógenos."
+        },
+        {
+          "id": "QUI-ORG-03",
+          "titulo": "Markovnikov y Esterificación",
+          "enunciado": "1. El propeno reacciona con $HCl$. Escriba la reacción y justifique el producto mayoritario (Markovnikov).\n2. Escriba la reacción de esterificación entre ácido etanoico y propan-1-ol.",
+          "rubrica": "2,5 puntos. 1) 1,25 pts: Adición electrófila. 2) 1,25 pts: Condensación (Éster + Agua).",
+          "tip": "En Markovnikov, el Hidrógeno va al carbono con más Hidrógenos ('el dinero va al dinero')."
+        }
+      ]
+    }
+  },
+  "normativa_2026": [
+    "Razonamiento: Toda respuesta teórica debe justificarse. Sin razonamiento = 0 puntos.",
+    "Unidades: Error u omisión penaliza un 25% del apartado.",
+    "Cálculo: Error leve descuenta 10%. Resultados sin lógica (pH > 14, constantes < 0) = 0 puntos.",
+    "Termoquímica: Cuidado al sumar kJ con J (error típico en entropía).",
+    "Nomenclatura: Uso estricto de normas IUPAC."
+  ]
+}
