@@ -1,76 +1,112 @@
 {
   "asignaturas": {
     "Bioloxía": {
-      "Bloque 1: Comprensión Textual (Pregunta 1)": [
+      "Pregunta 1: Análisis de Textos Científicos (2,5 pts)": [
         {
-          "id": "BIO-BLOQUE1-01",
+          "id": "BIO-Q1-01",
           "titulo": "CRISPR-Cas9 y Medicina Personalizada",
-          "enunciado": "TEXTO: «O sistema CRISPR-Cas9, derivado dun mecanismo de defensa bacteriano contra virus, permite editar o xenoma cunha precisión sen precedentes. Este sistema utiliza un ARN guía para dirixir a enzima Cas9 cara a unha secuencia específica de ADN...»\n\n1.1. Indique a función biolóxica orixinal do sistema CRISPR nas bacterias e cite unha aplicación médica mencionada no texto. (0.6 p.)\n1.2. Explique que molécula actúa como 'molde' ou 'guía' neste sistema e a que tipo de biomolécula pertence segundo a súa composición química. (0.5 p.)\n1.3. Se o corte de Cas9 se produce nun exón dun xen eucariota, explique brevemente como afectaría isto ao proceso de maduración do ARNm e á proteína final. (0.7 p.)\n1.4. Defina o concepto de mutación e razone se a edición mediante CRISPR se consideraría unha mutación dirixida. (0.7 p.)",
-          "rubrica": "1.1: 0.3 defensa antivirus / 0.3 terapia xénica ou tumores. 1.2: 0.25 ARN guía / 0.25 Ácido nucleico. 1.3: 0.35 alteración do splicing / 0.35 cambio na secuencia de aminoácidos ou proteína non funcional. 1.4: 0.35 definición cambio material xenético / 0.35 xustificación técnica.",
-          "tip": "Non esquezas mencionar que o ARN guía é complementario á secuencia de ADN diana para asegurar a especificidade."
+          "enunciado": "TEXTO: «O sistema CRISPR-Cas9, derivado dun mecanismo de defensa bacteriano contra virus, permite editar o xenoma cunha precisión sen precedentes. Este sistema utiliza un ARN guía para dirixir a enzima Cas9 cara a unha secuencia específica de ADN...»\n\n1.1. Indique a función biolóxica orixinal do sistema CRISPR nas bacterias e cite unha aplicación médica mencionada no texto. (0.6 p.)\n1.2. Explique que molécula actúa como 'molde' ou 'guía' neste sistema e a que tipo de biomolécula pertence. (0.5 p.)\n1.3. Se o corte de Cas9 se produce nun exón, como afectaría á maduración do ARNm e á proteína final? (0.7 p.)\n1.4. Defina mutación e razone se CRISPR se considera unha mutación dirixida. (0.7 p.)",
+          "rubrica": "1.1: 0.3 defensa / 0.3 aplicación. 1.2: 0.25 ARN / 0.25 Ácido nucleico. 1.3: 0.35 splicing / 0.35 alteración proteína. 1.4: 0.35 def / 0.35 xustificación.",
+          "tip": "Menciona a 'complementariedade de bases' entre o ARN guía e o ADN diana."
         },
         {
-          "id": "BIO-BLOQUE1-03",
-          "titulo": "Plataformas de Vacunación y Zoonosis",
-          "enunciado": "TEXTO: «Tras o éxito das vacinas de ARNm, estanse a desenvolver plataformas que combinan proteínas recombinantes con nanopartículas lipídicas... A diferenza dos soros, as vacinas activan a memoria inmunolóxica...»\n\n1.1. A partir do texto, diferencie entre o mecanismo de acción dunha vacina e o dun soro. (0.6 p.)\n1.2. Explique que son as nanopartículas lipídicas e por que son necesarias para protexer o ARNm. (0.6 p.)\n1.3. Defina os termos antíxeno e epítopo. (0.6 p.)\n1.4. Indique que tipos celulares son os responsables da produción de anticorpos e da memoria inmunolóxica. (0.7 p.)",
-          "rubrica": "1.1: 0.3 vacina (activa/duradeira) / 0.3 soro (pasiva/temporal). 1.2: 0.3 lípidos/bicapa / 0.3 protección contra nucleases. 1.3: 0.3 sustancia estraña / 0.3 centro activo do antíxeno. 1.4: 0.35 Células plasmáticas (B) / 0.35 Linfocitos de memoria.",
-          "tip": "É fundamental diferenciar entre inmunidade activa (vacinas) e pasiva (soros)."
+          "id": "BIO-Q1-02",
+          "titulo": "Impacto do Cambio Climático na Microbiota",
+          "enunciado": "TEXTO: «O aumento das temperaturas globais afecta á microbiota do solo e do tracto dixestivo... Estes microorganismos son cruciais no ciclo do nitróxeno e na barreira inmunolóxica...»\n\n1.1. Explique que é a microbiota e un xeito de actuación na defensa contra infeccións. (0.6 p.)\n1.2. Nomee dúas funcións que realizan as bacterias do solo para facer asimilable o nitróxeno para as plantas. (0.6 p.)\n1.3. Defina inmunidade innata e cite dous exemplos de barreiras físicas ou químicas. (0.7 p.)\n1.4. Como afecta unha temperatura superior a 60ºC ás encimas? Explique as consecuencias funcionais. (0.6 p.)",
+          "rubrica": "1.1: 0.3 def / 0.3 competencia. 1.2: 0.6 fixación/nitrificación. 1.3: 0.35 def / 0.35 exemplos. 1.4: 0.3 desnaturalización / 0.3 perda de función.",
+          "tip": "Usa sempre o termo 'desnaturalización' para explicar a perda de conformación tridimensional das proteínas."
+        },
+        {
+          "id": "BIO-Q1-03",
+          "titulo": "Plataformas de Vacunación e Zoonose",
+          "enunciado": "TEXTO: «Tras o éxito das vacinas de ARNm, desenvólvense plataformas que combinan proteínas recombinantes con nanopartículas lipídicas... activan a memoria inmunolóxica...»\n\n1.1. Diferencie entre o mecanismo de acción dunha vacina e dun soro. (0.6 p.)\n1.2. Explique por que as nanopartículas lipídicas protexen ao ARNm. (0.6 p.)\n1.3. Defina antíxeno e epítopo. (0.6 p.)\n1.4. Que células producen os anticorpos e a memoria inmunolóxica? (0.7 p.)",
+          "rubrica": "1.1: 0.3 activa vs pasiva. 1.2: 0.6 barreira hidrofóbica/protección nucleases. 1.3: 0.3 antíxeno / 0.3 epítopo. 1.4: 0.35 Células plasmáticas / 0.35 Linfocitos B memoria.",
+          "tip": "Diferenza ben entre inmunidade activa (vacinas) e pasiva (soros)."
         }
       ],
-      "Bloque 2: Bioelementos e Metabolismo": [
+      "Bloque 2: Metabolismo e Bioelementos (2,5 pts)": [
         {
           "id": "BIO-MET-01",
-          "titulo": "Bioelementos y Enzimas",
-          "enunciado": "2.1. Defina o concepto de bioelemento primario e indique dous exemplos, sinalando unha función biolóxica para cada un. (1.0 p.)\n\n2.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura que amosa unha curva de saturación dunha enzima (Eixe Y: velocidade; Eixe X: [S]). Hai dúas curvas: A (normal) e B (con inhibidor). Identifique: A) Que representan a Vmáx/2 e os valores de Km. B) Cal das dúas situacións presenta maior afinidade.\nOPCIÓN B: Explique a estrutura química da molécula de auga e cite tres funcións derivadas do seu carácter dipolar.",
-          "rubrica": "2.1: 0.5 def. / 0.5 exemplos (C, H, O, N, P, S). 2.2-A: 0.75 identif. parámetros / 0.75 razonamiento Km (A é maior afinidade). 2.2-B: 0.75 estructura (enlace covalente/ponte hidróxeno) / 0.75 funcións (termoreguladora, disolvente, etc.).",
-          "tip": "Para a afinidad enzimática, lembra: 'A menor valor de Km, maior é a afinidade'."
+          "titulo": "Enzimas e Afinidade",
+          "enunciado": "2.1. Defina bioelemento primario e sinale dous exemplos e as súas funcións. (1,0 p.)\n\n2.2. Opcional (1,5 p.):\n**OPCIÓN A:** Observe a gráfica de saturación encimática. Identifique os parámetros Vmax e Km en ambas curvas e razone cal presenta maior afinidade.\n**OPCIÓN B:** Estrutura química da auga e tres propiedades derivadas do seu carácter dipolar.",
+          "descripcion_visual": "Gráfica con dúas curvas (A e B). A curva A sobe máis rápido (Km menor). A curva B está desprazada á dereita (Km maior). Ambas chegan á mesma velocidade máxima horizontal.",
+          "rubrica": "2.1: 0,5 def / 0,5 exemplos. 2.2-A: 0,75 parámetros / 0,75 afinidade (A > B). 2.2-B: 0,75 estrutura / 0,75 propiedades.",
+          "tip": "Lembra: A menor Km, maior afinidade pola enzima."
+        },
+        {
+          "id": "BIO-MET-02",
+          "titulo": "Proteínas e Lípidos",
+          "enunciado": "2.1. Nomee catro funcións xerais das proteínas nos seres vivos. (1,0 p.)\n\n2.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique a molécula da figura (fosfoglicérido). Indique partes hidrófilas e hidrófobas. Que estrutura celular forman?\n**OPCIÓN B:** Explique o proceso de hidroxenación das graxas e o seu efecto no punto de fusión.",
+          "descripcion_visual": "Molécula con 'cabeza' circular (fosfato e colina) e dúas 'colas' de ácidos graxos, unha delas cun dobre enlace que xera un ángulo ou 'codo'.",
+          "rubrica": "2.1: 0,25 cada función. 2.2-A: 0,5 identif / 0,5 anfipatía / 0,5 bicapa lipídica. 2.2-B: 0,75 proceso / 0,75 fusión.",
+          "tip": "O carácter 'anfipático' é a palabra clave para explicar a formación de membranas."
         },
         {
           "id": "BIO-MET-03",
-          "titulo": "Vitaminas y Respiración Celular",
-          "enunciado": "2.1. Cite os dous tipos de vitaminas segundo a súa solubilidade e poña un exemplo de cada unha coa súa carencia. (1.0 p.)\n\n2.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Esquema dunha mitocondria amosando o balance global. A) Nombre os procesos (Glicólise, Ciclo de Krebs, Cadea electrónica). B) Identifique en que parte ocorre o Ciclo de Krebs.\nOPCIÓN B: Diferenzas fundamentais entre o catabolismo aeróbico e a fermentación (rendemento e aceptor final).",
-          "rubrica": "2.1: 0.5 Hidro/Lipo / 0.5 exemplos (C, Escorbuto, etc.). 2.2-A: 0.75 identificación / 0.75 localización (matriz). 2.2-B: 0.75 ATP producido / 0.75 O2 vs molécula orgánica.",
-          "tip": "Nas fermentacións, recalca que o aceptor final é unha 'molécula orgánica'."
+          "titulo": "Vitaminas e Mitocondrias",
+          "enunciado": "2.1. Tipos de vitaminas segundo solubilidade e unha enfermidade carencial asociada a un exemplo de cada. (1,0 p.)\n\n2.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique na figura os procesos: Glicólise, Ciclo de Krebs e Cadea de transporte. Localice o Ciclo de Krebs.\n**OPCIÓN B:** Diferenzas entre respiración aeróbica e fermentación (rendemento e aceptor final).",
+          "descripcion_visual": "Esquema dunha mitocondria con frechas de entrada (Glicosa) e saída (ATP). Un ciclo circular no interior da matriz e un sistema de transporte na membrana interna de cristas.",
+          "rubrica": "2.1: 0,5 solubilidade / 0,5 exemplos. 2.2-A: 0,75 identif / 0,75 matriz. 2.2-B: 0,75 ATP / 0,75 aceptor.",
+          "tip": "Na fermentación o aceptor final é unha molécula orgánica."
         }
       ],
-      "Bloque 3: A Célula e Xenética": [
+      "Bloque 3: Xenética e Ciclo Celular (2,5 pts)": [
         {
           "id": "BIO-CEL-01",
-          "titulo": "Teoría Celular y Meiosis",
-          "enunciado": "3.1. Formule os tres postulados fundamentais da Teoría Celular. (1.0 p.)\n\n3.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura da meiose (etapa 3: Intercambio de fragmentos entre cromátidas). A) Identifique o proceso (sobrecruzamento) e a súa importancia. B) Indique se as células finais son haploides ou diploides.\nOPCIÓN B: Describa a estrutura e función do nucléolo e que pasaría coa síntese proteica se fose destruído.",
-          "rubrica": "3.1: 0.33 por postulado (unidad estructural, funcional, origen). 3.2-A: 0.75 sobrecruzamento e variabilidade / 0.75 haploides. 3.2-B: 0.75 def. e función (ARNr) / 0.75 sen ribosomas non hai proteínas.",
-          "tip": "Usa o termo 'variabilidade xenética' ao falar da recombinación na profase I."
+          "titulo": "Meiose e Variabilidade",
+          "enunciado": "3.1. Formule os tres postulados da Teoría Celular. (1,0 p.)\n\n3.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique o proceso representado no paso 3 (sobrecruzamento). Explique a súa importancia biolóxica e diga se as células finais son haploides.\n**OPCIÓN B:** Estrutura e función do nucléolo. Que ocorre se se destrúe coa síntese de proteínas?",
+          "descripcion_visual": "Debuxo de dous cromosomas homólogos intercambiando fragmentos de cromátidas durante a profase I.",
+          "rubrica": "3.1: 0,33 cada postulado. 3.2-A: 0,75 sobrecruzamento-variabilidade / 0,75 haploidía. 3.2-B: 0,75 función ARNr / 0,75 sen ribosomas non hai tradución.",
+          "tip": "Usa 'variabilidade xenética' como concepto central da meiose."
+        },
+        {
+          "id": "BIO-CEL-02",
+          "titulo": "Orgánulos e Endosimbiose",
+          "enunciado": "3.1. Defina endocitose e exocitose. (1,0 p.)\n\n3.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique o orgánulo (cloroplasto). Nomee as súas partes e o proceso metabólico que ocorre nel.\n**OPCIÓN B:** Explique a Hipótesis Endosimbiótica e cite dúas evidencias morfolóxicas.",
+          "descripcion_visual": "Orgánulo con dobre membrana, interior con sacos aplanados apilados (grana) chamados tilacoides.",
+          "rubrica": "3.1: 0,5 cada unha. 3.2-A: 0,5 cloroplasto / 0,5 estroma-tilacoide / 0,5 fotosíntese. 3.2-B: 0,75 hipótese / 0,75 ADN propio e ribosomas 70S.",
+          "tip": "O ADN circular e os ribosomas 70S son as probas 'estrela' da endosimbiose."
         },
         {
           "id": "BIO-CEL-03",
-          "titulo": "Dogma Central y Código Genético",
-          "enunciado": "3.1. Defina o concepto de xen e diferencie entre exón e intrón. (1.0 p.)\n\n3.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura do Dogma Central (Doble hélice -> ARN -> Esferas). A) Identifique moléculas (ADN, ARN, Proteína). B) Nomee os procesos (Replicación, Transcrición, Tradución).\nOPCIÓN B: Explique as características do código xenético: universalidade, dexeneración e ausencia de solapamento.",
-          "rubrica": "3.1: 0.5 def. xen / 0.5 exón (codifica) vs intrón. 3.2-A: 0.75 identif. moléculas / 0.75 identif. procesos. 3.2-B: 0.5 cada característica explicada.",
-          "tip": "'Dexenerado' significa que varios codóns codifican o mesmo aminoácido."
+          "titulo": "Dogma Central e Código Xenético",
+          "enunciado": "3.1. Defina xen e diferencie exón de intrón. (1,0 p.)\n\n3.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique no esquema do Dogma Central: ADN, ARN, Proteína, Replicación e Tradución.\n**OPCIÓN B:** Explique as características do código xenético (universalidade, dexeneración).",
+          "descripcion_visual": "Esquema con frechas: Círculo sobre ADN (Replicación), ADN a ARN (Transcrición) e ARN a cadea de aminoácidos (Tradución).",
+          "rubrica": "3.1: 0,5 xen / 0,5 exón-intrón. 3.2-A: 0,75 moléculas / 0,75 procesos. 3.2-B: 0,75 universalidade / 0,75 dexeneración.",
+          "tip": "Dexenerado significa que un aminoácido pode ser codificado por varios codóns."
         }
       ],
-      "Bloque 4: Microbioloxía e Inmunoloxía": [
+      "Bloque 4: Inmunoloxía e Micro (2,5 pts)": [
+        {
+          "id": "BIO-MIC-01",
+          "titulo": "Bacterias e Industria",
+          "enunciado": "4.1. Catro diferenzas entre célula procariota e eucariota. (1,0 p.)\n\n4.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique as partes dunha bacteria (plásmido, nucleoide, parede). Función dos ribosomas.\n**OPCIÓN B:** Papel dos microbios na industria alimentaria (yogur e pan).",
+          "descripcion_visual": "Esquema dunha bacteria co seu ADN circular espallado, flaxelo, cápsula e pequenos aneis de ADN extracromosómico (plásmidos).",
+          "rubrica": "4.1: 0,25 cada diferenza. 4.2-A: 0,75 identif / 0,75 función. 4.2-B: 0,75 fermentación láctica / 0,75 alcohólica.",
+          "tip": "Diferencia ben a fermentación bacteriana (láctica) da das levaduras (alcohólica)."
+        },
         {
           "id": "BIO-MIC-02",
-          "titulo": "Patologías e Inmunoglobulinas",
-          "enunciado": "4.1. Defina os conceptos de enfermidade autoinmune e inmunodeficiencia, aportando un exemplo. (1.0 p.)\n\n4.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura dunha inmunoglobulina en 'Y'. A) Identifique cadeas pesadas e lixeiras. B) Indique onde se sitúa o parátopo e a súa función. C) Que células as producen?\nOPCIÓN B: Diferenzas entre a resposta inmunitaria primaria e a secundaria (concentración de anticorpos e memoria).",
-          "rubrica": "4.1: 0.5 autoinmune / 0.5 inmunodeficiencia. 4.2-A: 0.5 cadeas / 0.5 parátopo (unión antíxeno) / 0.5 Plasmáticas. 4.2-B: 0.75 rapidez e intensidade / 0.75 papel linfocitos B memoria.",
-          "tip": "Na resposta secundaria, a produción de anticorpos é 'máis rápida, intensa e duradeira'."
+          "titulo": "Inmunoglobulinas e Resposta",
+          "enunciado": "4.1. Defina enfermidade autoinmune e inmunodeficiencia cun exemplo de cada. (1,0 p.)\n\n4.2. Opcional (1,5 p.):\n**OPCIÓN A:** Identifique nun anticorpo as cadeas pesadas/lixeiras e o parátopo. Que células os producen?\n**OPCIÓN B:** Diferenzas entre resposta inmunitaria primaria e secundaria.",
+          "descripcion_visual": "Proteína en forma de Y con pontes disulfuro unindo 4 cadeas proteicas.",
+          "rubrica": "4.1: 0,5 cada unha. 4.2-A: 0,5 cadeas / 0,5 parátopo / 0,5 plasmáticas. 4.2-B: 0,75 rapidez e intensidade / 0,75 memoria.",
+          "tip": "A resposta secundaria é 'máis rápida, intensa e duradeira' grazas á memoria."
         },
         {
           "id": "BIO-MIC-03",
-          "titulo": "Ciclos Virales y PCR",
-          "enunciado": "4.1. Cite os tipos de microorganismos segundo a súa organización e poña un exemplo. (1.0 p.)\n\n4.2. Responda a UNHA das dúas opcións (1.5 p.):\nOPCIÓN A (Identificación): Figura de ciclos virais (Ciclo 1: lise; Ciclo 2: integración). A) Identifique os ciclos. B) Explique a diferenza fundamental. C) Que é un retrovirus?\nOPCIÓN B: Describa a técnica da PCR, indicando fases e por que se usa a Taq polimerase.",
-          "rubrica": "4.1: 0.33 por tipo (acelular, proca, euca). 4.2-A: 0.5 lítico/lisoxénico / 0.5 morte vs latencia / 0.5 ARN/transcriptase. 4.2-B: 0.75 fases (desnat, hibrid, elong) / 0.75 termoresistencia.",
-          "tip": "O termo 'profago' é clave para o ciclo lisoxénico."
+          "titulo": "Ciclos Virais e PCR",
+          "enunciado": "4.1. Tipos de microorganismos segundo organización (acelular, proca, euca) con exemplo. (1,0 p.)\n\n4.2. Opcional (1,5 p.):\n**OPCIÓN A:** Diferencie Ciclo Lítico de Ciclo Lisoxénico nunha bacteria. Que é un retrovirus?\n**OPCIÓN B:** Describa a PCR e por que se usa a polimerase Taq.",
+          "descripcion_visual": "Esquema que mostra o ADN dun virus integrándose no xenoma dunha bacteria sen matala inicialmente (Lisoxénico).",
+          "rubrica": "4.1: 0,33 cada un. 4.2-A: 1,0 ciclos / 0,5 retrovirus. 4.2-B: 0,75 fases / 0,75 termoresistencia.",
+          "tip": "A Taq polimerase é clave porque non se desnaturaliza a altas temperaturas."
         }
       ]
     }
   },
   "normativa_2026": [
-    "Estrutura: 4 preguntas obrigatorias de 2.5 puntos.",
-    "Rigor: O uso de terminoloxía específica (enlaces, orgánulos, rutas) é imprescindible.",
-    "Dibujos: Identificación precisa de estruturas en esquemas (Preguntas 2, 3 e 4).",
-    "Ortografía: -0,15 por tilde, -0,25 por falta (normativa CiUG)."
+    "Estrutura: 4 preguntas obrigatorias de 2,5 puntos.",
+    "Rigor terminolóxico extremo.",
+    "Penalización ortográfica CiUG."
   ]
 }
