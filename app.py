@@ -34,16 +34,22 @@ try:
     ejercicio_actual = ejercicios[ej_sel_index]
     normativa = "\n".join([f"- {r}" for r in data.get('normativa_2026', data.get('reglas_2026', []))])
 
-    # --- PANTALLA PRINCIPAL: SOLO ENUNCIADO ---
+# --- PANTALLA PRINCIPAL: SOLO ENUNCIADO ---
     st.title(f"📝 {asignatura_nombre}")
     st.subheader(f"{ejercicio_actual['id']}: {ejercicio_actual['titulo']}")
     
-    # Espacio para el enunciado (Protagonista absoluto)
     st.markdown("---")
     st.markdown(f"#### ENUNCIADO")
     st.write(ejercicio_actual['enunciado'])
+    
+    # NUEVO: Si el ejercicio tiene una imagen, la muestra
+    if 'imagen_url' in ejercicio_actual and ejercicio_actual['imagen_url']:
+        st.image(ejercicio_actual['imagen_url'], caption="Figura de apoyo para el ejercicio")
+    elif 'descripcion_visual' in ejercicio_actual:
+        with st.container():
+            st.info(f"🖼️ **Descripción de la Imagen del Examen:** {ejercicio_actual['descripcion_visual']}")
+    
     st.markdown("---")
-
     # --- ZONA OCULTA: SOLO SE ABRE AL TERMINAR ---
     with st.expander("✅ HE TERMINADO EL EJERCICIO (Revelar Criterios y Prompt)"):
         st.warning("Usa esta sección solo para corregir tu trabajo ya realizado.")
